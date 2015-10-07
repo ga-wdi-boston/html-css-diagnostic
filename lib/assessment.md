@@ -22,26 +22,45 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+It means that the experience of using the web is made possible by the interaction of two parties, a 'client', which makes a requst, and a 'server', which responds to the request. In particular, a client makes an 'HTTP request' (which we will cover soon), and a server responds by sending back some kind of response (usually either HTML/CSS/JS or JSON).
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> A Web Page </title>
+  </head>
+  <body>
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
 
 What selectors could we write to reference each of the following categories of elements?
+
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
 * Any elements that belong both to the `important` and `red` classes
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+Selectors that would work are (respectively)
+* `.big`
+* `#contentPane`
+* `.important.red`
+* `div > p`
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +102,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Font family will be `cursive`
+Color will be `yellow`
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +115,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +158,11 @@ div {
 ```
 
 <!-- your answer starts here -->
+`.divOne` will be in the top-right corner; `.divTwo` will be in the top-left corner, with `.divThree` immediately to its right; `.divFour` will be underneath `.divTwo`, and `.divFive` will sit immediately to the right of `.divFour` (under `.divThree`).
 
+In short:
+2 3       1
+4 5
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +187,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+The screen would need to be 600px wide.
 <!-- your answer ends here -->
