@@ -1,5 +1,3 @@
-# Quiz: HTML
-
 This file is a **markdown** file. Markdown is a special way of formatting text, and one that's used by GitHub in its README files.
 
 In responding to some of these questions, you may be asked to write HTML or CSS code. Please do so using the following Markdown formatting.
