@@ -22,14 +22,27 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The we is a service, provide through an electronic networking backbone
+known as the internet -->
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
-
+<!-- your answer start here -->
+<html>
+<head>
+  <title>HTML AND CSS DIAGNOSTICS</title>
+</head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</head>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,10 +54,32 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+in html: in a tag you write, ex <div class="big">
+in css:
+.big {
+property: value;
+property: values;
+}
 
+#contentPane {
+height: 100px;
+width: 100px;
+}
+
+.important, .red {
+property: value;
+property: values;
+height: 100px;
+width: 100px;
+}
+
+div.p {
+height: 100px;
+width: 100px
+}
 <!-- your answer ends here -->
 
-## Question 4
+##quuestion 4
 
 Consider the following HTML and CSS code. What text color and font-family values will the div labelled 'specialDiv' have?
 
@@ -83,7 +118,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +131,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+margin    --> outermost
+border
+paddin
+content   --> innermost
 <!-- your answer ends here -->
 
 ## Question 6
@@ -122,7 +161,6 @@ Consider the following HTML and CSS. Assuming that the window is much larger tha
 **style.css**
 ```CSS
 div {
-  /* ... */
   /* Some other specifications, e.g. dimensions. */
   /* ... */
   float: left;
@@ -138,7 +176,16 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+.divOne {
+height: 50px;
+width: 50px;
+float: right;
+}
+.divFour {
+  height: 50px;
+  width: 50px;
+  clear: left;
+}
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +210,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+700px
 <!-- your answer ends here -->
