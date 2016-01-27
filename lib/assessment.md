@@ -21,28 +21,46 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The Web provides a service to access information over the Internet. It is built on top of the Internet.
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!DOCTYPE html>
+  <html>
+    <head>
+    <!-- Meta-data goes here. -->
+    <title>html Diagnostic</title>
+    </head>
+    <body>
+    <ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    </ul>
+      <!-- Page content goes here. -->
+    </body>
+  </html>
 
 ## Question 3
 
 What selectors could we write to reference each of the following categories of elements?
 * All elements that belong to the class `big`
+  .big{
+  }
 * The element matching ID `contentPane`
+  #contentPane{
+
+  }
 * Any elements that belong both to the `important` and `red` classes
+  .important, .red{
+
+  }
 * Any `p` elements whose parent elements are `div`s
+  div > p{
 
-<!-- your answer starts here -->
+  }
 
-<!-- your answer ends here -->
 
 ## Question 4
 
@@ -82,21 +100,16 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+specialDiv will have red color text in cursive font-family.
 
 ## Question 5
 
 Order the following parts of the box model from 'innermost' to 'outermost'.
-* content
-* border
-* margin
-* padding
+* content - 1
+* padding - 2
+* border -3
+* margin - 4
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
 
 ## Question 6
 
@@ -137,9 +150,9 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+It would look like below:
+[divTwo][divThree][divFive][divOne]
+[divFour]
 
 ## Question 7
 
@@ -161,7 +174,4 @@ Consider the following media queries. How wide would the screen need to be for e
   }
 }
 ```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Screen needs to be 1200px
