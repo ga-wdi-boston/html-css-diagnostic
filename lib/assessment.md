@@ -95,3 +95,69 @@ div {
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
+
+## Question 7
+Order the following spaces from innermost to outermost:
+* content
+* border
+* margin
+* padding
+
+<!-- your answer starts here -->
+
+<!-- your answer ends here -->
+
+## Question 8
+Of `em`, `px`, and `%`, which would we probably use for elements of fixed size? Which would we probably use to appropriately scale div dimensions? Which would we probably use to appropriately scale font size and text?
+
+<!-- your answer starts here -->
+
+<!-- your answer ends here -->
+
+## Question 9
+Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
+**index.html**
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div id="divOne"></div>
+  <div id="divTwo"></div>
+  <div id="divThree"></div>
+  <div id="divFour"></div>
+  <div id="divFive"></div>
+</body>
+</html>
+```
+
+**style.css**
+```CSS
+div {
+  /* ... */
+  /* Some other specifications, e.g. dimensions. */
+  /* ... */
+  float: left;
+}
+
+#divOne {
+  float: right;
+}
+
+#divFour {
+  clear: left;
+}
+```
+
+<!-- your answer starts here -->
+
+<!-- your answer ends here -->
+
+## Question 10
+Describe static, relative, absolute, and fixed positioning. When would you use each type?
+
+<!-- your answer starts here -->
+
+<!-- your answer ends here -->
