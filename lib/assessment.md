@@ -2,53 +2,71 @@ This file is a **markdown** file. Markdown is a special way of formatting text, 
 
 In responding to some of these questions, you may be asked to write HTML or CSS code. Please do so using the following Markdown formatting.
 
-##### For HTML
-    ```HTML
-    <html>
-    ...
-    </html>
-    ```
+# For HTML
 
-##### For CSS
-    ```CSS
-    ul {
-      ...
-    }
-    ```
+````
+```HTML
+<html>
+...
+</html>
+```
+````
+
+# For CSS
+
+````
+```CSS
+ul {
+  ...
+}
+```
+````
 
 Using this format will make it easier for us to grade you, so that we can get everyone their feedback faster. Thanks for your help!
 
 ## Question 1
-
-When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers. <!-- your answer starts here --> The web is a service in that it represents a consistent framework for displaying documents across the internet <!-- your answer ends here -->
 
 ## Question 2
+Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body. <!-- your answer starts here -->
 
-Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meerkat Central</title>
+<head/>
+<body>
+<ul>
+<li>Meerkat?</li>
+<li>Meerkat.</li>
+<li>Meer. Kat.</li>
+</ul>
+</body>
+</html>
 
 <!-- your answer ends here -->
 
 ## Question 3
-
 What selectors could we write to reference each of the following categories of elements?
-* All elements that belong to the class `big`
-* The element matching ID `contentPane`
-* Any elements that belong both to the `important` and `red` classes
-* Any `p` elements whose parent elements are `div`s
+- All elements that belong to the class `big`
+- The element matching ID `contentPane`
+- Any elements that belong both to the `important` and `red` classes
+- Any `p` elements whose parent elements are `div`s
+- <!-- your answer starts here -->
 
-<!-- your answer starts here -->
+.big {}
+#contentPane {}
+.important.red {}
+div > p {}
+
 
 <!-- your answer ends here -->
 
 ## Question 4
-
 Consider the following HTML and CSS code. What text color and font-family values will the div labelled 'specialDiv' have?
 
 **index.html**
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -64,6 +82,7 @@ Consider the following HTML and CSS code. What text color and font-family values
 ```
 
 **main.css**
+
 ```CSS
 * {
   color: black;
@@ -83,26 +102,25 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Yellow, cursive.
 <!-- your answer ends here -->
 
 ## Question 5
-
 Order the following parts of the box model from 'innermost' to 'outermost'.
-* content
-* border
-* margin
-* padding
-
-<!-- your answer starts here -->
+- content
+- border
+- margin
+- padding
+- <!-- your answer starts here -->
+Content, padding, border, margin.
 
 <!-- your answer ends here -->
 
 ## Question 6
-
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
 
 **index.html**
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -120,6 +138,7 @@ Consider the following HTML and CSS. Assuming that the window is much larger tha
 ```
 
 **style.css**
+
 ```CSS
 div {
   /* ... */
@@ -138,12 +157,12 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div and divOne would appear on the same line, with divo to the left and divOne to the right. divFour would appear fully below .divFour.
 <!-- your answer ends here -->
 
 ## Question 7
-
 Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
+
 ```CSS
 .stretch {
   width: 100px;
@@ -163,5 +182,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+800px
 <!-- your answer ends here -->
