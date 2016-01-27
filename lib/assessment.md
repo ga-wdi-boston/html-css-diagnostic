@@ -22,14 +22,28 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+That means that one entity is making request and another is responding to those requests, in this case the client is making the requests and the servers are responding to it. The client is the browser which requests web pages.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+  < - title goes here - >
+  </head>
+  <body>
+  <ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +55,12 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big {}; refers to the class big
+#contentPane {}; refers to ID contentPane
+.important.red {}; refers to the important and red classes
+div > p {};
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +102,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+the .specialDiv class will have yellow text in sans-serif font.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +114,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+1. content
+2. padding
+3. border
+4. margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +160,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+```CSS
+the div class would be placed at the top left corner of the webpage.
+.divOne would be placed at the top right corner of the webpage.
+.divFour would be placed at the top left corner of the webpage seperate from the other divs.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +188,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+the screen has to be atleast 600px.
 <!-- your answer ends here -->
