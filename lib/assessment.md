@@ -92,14 +92,14 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 
 <!-- your answer ends here -->
 
-## Question 7
+## Question 6
 Of `em`, `px`, and `%`, which would we probably use for elements of fixed size? Which would we probably use to appropriately scale div dimensions? Which would we probably use to appropriately scale font size and text?
 
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
-## Question 8
+## Question 7
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
 **index.html**
 ```HTML
