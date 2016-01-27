@@ -22,14 +22,29 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The client, browser, request webpages(documents composed of HTML, Javascript, and CSS )and the server
+responds to those request  and provides the pages for the user to see and interact witith
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+```HTML
+<html>
+    <head>
+        <title>My vegan cookie recipe</title>
+    </head>
+    <body>
+    <ul>
+        <li>banana</li>
+        <li>oats</li>
+        <li>raisins</li>
+    </ul>
+    </body>
 
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +56,20 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big{
+    background-color: yellow;
+}
+#contentPane{
+    background-color: blue;
+}
+.important.red{
+    background-color: red;
+}
+div, p{
+    background-color: orange;
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +111,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif;
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +124,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +170,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div one and dive
 <!-- your answer ends here -->
 
 ## Question 7
