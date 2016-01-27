@@ -21,15 +21,25 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!-- the web faciliated the communication between clients and servers.  For example when you access a webpage, you are using the web to create a copy of the webpage from a server to your browswer or computer.  If you have another users looking the same page in their browser/computer, the two of you are looking at different copy rather than the same file. -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>fruits</title>
+      <h1>FRUITS FOR TODAY</h1>
+    </head>
+    <body>
+      <ul><h2>Fruits</h2></ul>
+      <li>bananas</li>
+      <li>apples</li>
+      <li>oranges</li>
+    </body>
+  </html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -42,6 +52,10 @@ What selectors could we write to reference each of the following categories of e
 
 <!-- your answer starts here -->
 
+ * <div class="big"> elements </div>
+ * <div id="contentPane"> </div>
+ * <div class="important"> <div class="red"> </div> </div>  <!-- not 100% sure -->
+ * <div> <p> </p> </div>
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +97,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Color: yellow
+font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +110,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +156,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div one will float right, the rest will float left.  four will never be on left.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +181,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+at 150 pixel screen. it will have the width of 100px.  so no stretching.
 <!-- your answer ends here -->
