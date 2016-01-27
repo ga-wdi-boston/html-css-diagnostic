@@ -22,14 +22,29 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+That mean that the web is a service between the client and a server. They both need each other to be a service. The client asks for information from the server and the server provide the data the client needs.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Webpage!!!</title>
+  </head>
+  <body>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+   </body>
+   <footer>
+    <p>Something smells like feet down here...</p>
+  </footer>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +56,10 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+.big {}
+#contentPane {}
+.important.red {}
+p {} //Unless the div has a class name then its ".div p {}"
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +101,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif;
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +114,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +160,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo divThree divOne
+divFour divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +186,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px
 <!-- your answer ends here -->
