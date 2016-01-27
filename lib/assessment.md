@@ -19,18 +19,21 @@ In responding to some of these questions, you may be asked to write HTML or CSS 
 Using this format will make it easier for us to grade you, so that we can get everyone their feedback faster. Thanks for your help!
 
 ## Question 1
+
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 2
+
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 3
+
 What selectors could we write to reference each of the following categories of elements?
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
@@ -42,7 +45,9 @@ What selectors could we write to reference each of the following categories of e
 <!-- your answer ends here -->
 
 ## Question 4
+
 Consider the following HTML and CSS code. What text color and font-family values will the div labelled 'specialDiv' have?
+
 **index.html**
 ```HTML
 <!DOCTYPE html>
@@ -82,6 +87,7 @@ div {
 <!-- your answer ends here -->
 
 ## Question 5
+
 Order the following parts of the box model from 'innermost' to 'outermost'.
 * content
 * border
@@ -93,7 +99,9 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 <!-- your answer ends here -->
 
 ## Question 6
+
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
+
 **index.html**
 ```HTML
 <!DOCTYPE html>
@@ -134,6 +142,7 @@ div {
 <!-- your answer ends here -->
 
 ## Question 7
+
 Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
 ```CSS
 .stretch {
