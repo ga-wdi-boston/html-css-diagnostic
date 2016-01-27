@@ -25,7 +25,7 @@ When we say that the web is a service, what does that mean? Explain the interact
 <!-- your answer ends here -->
 
 ## Question 2
-Below, write some HTML to create a basic web page. It should have a title in the head and an unordered list (with three items) inside the body.
+Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
