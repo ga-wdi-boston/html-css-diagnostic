@@ -21,15 +21,34 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
+<!-- your answer ends here -->
+The web is a service where the web page is the service offered. The page is a document
+which is delivered to the client. The web is NOT the cables and wires which deliver
+the service.
 
+The client in this case is the web browser. The document is delivered to the web
+browser and interpretted by it in order to render it for the user.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Example HTML Code</title>
+  </head>
+  <body>
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +60,10 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+* .big  {}
+* #contentPane {}
+* .important.red {}
+* div > p {}
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +105,13 @@ div {
 ```
 
 <!-- your answer starts here -->
+The div labeled 'specialDiv' will have a text color of yellow (because it has the
+highest specificity score of the divs defining the text color) and a font-family
+of 'cursive' (because it is defined in-line).
 
+Note that cascading won't occur between .things and .specialDiv because their
+specificity is not equivalent, so .specialDiv's color value will prevail even
+though .things appears later in the style sheet.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +123,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+* content
+* padding
+* border
+* margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +169,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+[divTwo][divThree]                  [divOne]
+[divFour][divFive]
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +195,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px
 <!-- your answer ends here -->
