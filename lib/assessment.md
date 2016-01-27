@@ -82,7 +82,7 @@ div {
 <!-- your answer ends here -->
 
 ## Question 5
-Order the following spaces from innermost to outermost, according to the box model:
+Order the following parts of the box model from 'innermost' to 'outermost'.
 * content
 * border
 * margin
