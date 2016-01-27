@@ -31,12 +31,6 @@ Between the comments below, write HTML to create a basic web page (using the for
 <!-- your answer ends here -->
 
 ## Question 3
-What are the three ways we can add CSS to an HTML document? Which will we use most often?
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
-## Question 4
 What selectors could we write to select each of the following categories of elements?
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
@@ -47,8 +41,7 @@ What selectors could we write to select each of the following categories of elem
 
 <!-- your answer ends here -->
 
-
-## Question 5
+## Question 4
 Consider the following HTML and CSS code. What color and font-family values will the div 'specialDiv' have?
 **index.html**
 ```HTML
@@ -90,7 +83,7 @@ div {
 
 <!-- your answer ends here -->
 
-## Question 6
+## Question 5
 Order the following spaces from innermost to outermost, according to the box model:
 * content
 * border
