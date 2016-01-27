@@ -93,30 +93,6 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 <!-- your answer ends here -->
 
 ## Question 6
-Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
-```CSS
-.stretch {
-  width: 100px;
-}
-
-@media (min-width: 400px) {
-  .stretch {
-    width: 25%;
-  }
-}
-
-@media (min-width: 800px) {
-  .stretch {
-    width: 30%;
-  }
-}
-```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
-## Question 7
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
 **index.html**
 ```HTML
@@ -150,6 +126,30 @@ div {
 
 #divFour {
   clear: left;
+}
+```
+
+<!-- your answer starts here -->
+
+<!-- your answer ends here -->
+
+## Question 7
+Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
+```CSS
+.stretch {
+  width: 100px;
+}
+
+@media (min-width: 400px) {
+  .stretch {
+    width: 25%;
+  }
+}
+
+@media (min-width: 800px) {
+  .stretch {
+    width: 30%;
+  }
 }
 ```
 
