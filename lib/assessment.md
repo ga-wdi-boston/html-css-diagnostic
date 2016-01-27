@@ -21,7 +21,7 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->The web is a service in that it serves as a 'middle man' to the clients and servers. A server has content to offer to a client but no means of actually displaying that content for the client to interact with. The client requests this content in order to view and interact with it. The web is the service that requests and retrieves this content from servers and renders it for the client to view and interact with. 
+<!-- your answer starts here -->The web is a service in that it serves as a 'middle man' to the clients and servers. A server has content to offer to a client but no means of actually displaying that content for the client to interact with. The client requests this content in order to view and interact with it. The web is the service that requests and retrieves this content from servers and renders it for the client to view and interact with.
 
 <!-- your answer ends here -->
 
@@ -191,5 +191,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-It would have to be at least 400px.
+It would have to be 600px.
 <!-- your answer ends here -->
