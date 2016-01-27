@@ -22,14 +22,29 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The web is a service that is built on top of the internet.  In terms of the web, the client is the browser, it request webpages and renders then so that you can view them.  The servers respond to the clients requests.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+```HTML
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title> Nicks Diagnostic</title>
+        </head>
+    <body>
+        <ul>
+            <li>Nicholas</li>
+            <li>Michael</li>
+            <li>Wilcox</li>
+        </ul>
+    </body>
+    </html>
 
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +56,9 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+    all elements that belong to a class big =
+    ID content pane = div
+    important / red =
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +100,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+special div will have text color yellow, and font family sans-serif
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +112,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+    innermost = content
+    padding
+    border
+    margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,6 +158,8 @@ div {
 ```
 
 <!-- your answer starts here -->
+    div one on the right side
+    div four underneath
 
 <!-- your answer ends here -->
 
@@ -163,5 +185,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+    the screen would need to be 650 px
 <!-- your answer ends here -->
