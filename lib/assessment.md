@@ -154,10 +154,3 @@ div {
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
-
-## Question 10
-Describe static, relative, absolute, and fixed positioning. When would you use each type?
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
