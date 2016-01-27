@@ -42,7 +42,7 @@ What selectors could we write to reference each of the following categories of e
 <!-- your answer ends here -->
 
 ## Question 4
-Consider the following HTML and CSS code. What color and font-family values will the div 'specialDiv' have?
+Consider the following HTML and CSS code. What text color and font-family values will the div labelled 'specialDiv' have?
 **index.html**
 ```HTML
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ Consider the following HTML and CSS code. What color and font-family values will
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
   <div class="things">
-    <div id="specialDiv" style="font-family: cursive">
+    <div class="specialDiv" style="font-family: cursive">
       Blah blah blah.
     </div>
   </div>
@@ -66,14 +66,12 @@ Consider the following HTML and CSS code. What color and font-family values will
 div {
   color: blue;
 }
-#specialDiv {
+.specialDiv {
   color: yellow;
   font-family: sans-serif;
 }
 .things {
   font-family: arial;
-}
-.things div {
   color: red;
   font-size: 16px;
 }
