@@ -22,14 +22,29 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The sevice
+Client sends a request to the server. The server takes the request and sends a response.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dianostic Answers</title>
+  </head>
+  <body>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +56,21 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+    ```CSS
+.big {
+  /* All elements that belong to the class `big`*/
+}
+#contentPane {
+  /* The element matching ID `contentPane` */
+}
+.important, .red {
+  /* Any elements that belong both to the `important` and `red` classes */
+}
 
+p {
+  /* Any `p` elements whose parent elements are `div`s */
+}
+    ```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +112,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+'specialDiv' has the
+    ```CSS
+    font-family: cursive;
+    color: yellow;
+    ```
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +128,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+* content
+* padding
+* border
+* margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +174,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be located on the right side of the screen.
+divTwo
+divThree
+divFour will be located at bottom left
+divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +203,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+It would never become
 <!-- your answer ends here -->
