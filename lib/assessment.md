@@ -25,24 +25,18 @@ When we say that the web is a service, what does that mean? Explain the interact
 <!-- your answer ends here -->
 
 ## Question 2
-As mentioned in the lesson, there are two general categories of elements, 'block' elements and 'inline' elements. Please explain the difference between the two categories, and give three examples of elements from each category.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
-## Question 3
 Below, write some HTML to create a basic web page. It should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
-## Question 4
+## Question 3
 What are the three ways we can add CSS to an HTML document? Which will we use most often?
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
-## Question 5
+## Question 4
 What selectors could we write to select each of the following categories of elements?
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
@@ -54,7 +48,7 @@ What selectors could we write to select each of the following categories of elem
 <!-- your answer ends here -->
 
 
-## Question 6
+## Question 5
 Consider the following HTML and CSS code. What color and font-family values will the div 'specialDiv' have?
 **index.html**
 ```HTML
@@ -96,8 +90,8 @@ div {
 
 <!-- your answer ends here -->
 
-## Question 7
-Order the following spaces from innermost to outermost:
+## Question 6
+Order the following spaces from innermost to outermost, according to the box model:
 * content
 * border
 * margin
@@ -107,14 +101,14 @@ Order the following spaces from innermost to outermost:
 
 <!-- your answer ends here -->
 
-## Question 8
+## Question 7
 Of `em`, `px`, and `%`, which would we probably use for elements of fixed size? Which would we probably use to appropriately scale div dimensions? Which would we probably use to appropriately scale font size and text?
 
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
-## Question 9
+## Question 8
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
 **index.html**
 ```HTML
