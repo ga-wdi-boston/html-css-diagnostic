@@ -81,7 +81,7 @@ div {
 }
 #specialDiv {
   color: yellow;
-  font-family: sans-serif;  
+  font-family: sans-serif;
 }
 .things {
   font-family: arial;
