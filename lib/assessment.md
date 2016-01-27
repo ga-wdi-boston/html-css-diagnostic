@@ -25,7 +25,7 @@ When we say that the web is a service, what does that mean? Explain the interact
 <!-- your answer ends here -->
 
 ## Question 2
-As mentioned in the lesson, there are two general categories of elements, 'block' elements and 'inline' elements. Please give three examples of each type of element, and explain the difference between the two categories.
+As mentioned in the lesson, there are two general categories of elements, 'block' elements and 'inline' elements. Please explain the difference between the two categories, and give three examples of elements from each category.
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
