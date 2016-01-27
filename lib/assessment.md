@@ -93,7 +93,24 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 <!-- your answer ends here -->
 
 ## Question 6
-Of `em`, `px`, and `%`, which would we probably use for elements of fixed size? Which would we probably use to appropriately scale div dimensions? Which would we probably use to appropriately scale font size and text?
+Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
+```CSS
+.stretch {
+  width: 100px;
+}
+
+@media (min-width: 400px) {
+  .stretch {
+    width: 25%;
+  }
+}
+
+@media (min-width: 800px) {
+  .stretch {
+    width: 30%;
+  }
+}
+```
 
 <!-- your answer starts here -->
 
