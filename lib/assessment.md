@@ -22,14 +22,30 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+Just like any service, the web has clients (who make requests) and servers (who handle them). Also like
+any other service, the web functions on top of a pre-existing infrastructure, in this case being the
+internet. For the web, the client is a user's browser, and the server is the company/individual/organization/whatever that's hosting the site the client wants to look at.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GA HTML/CSS Diagnostic</title>
+  </head>
+  <body>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +57,20 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big{
+  font-size: 100%;
+}
+#contentPane {
+  background-color: blue;
+}
+.important.red {
+  color: white;
+}
+div > p {
+  text-align: center;
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +112,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color will be yellow, font-family will be cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +124,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+margin
+border
+padding
+content
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +170,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+they would line up divOne, divTwo, divThree against the
+right edge of the window, with divFour and divFive in line on a second line
+against the left edge of the window
 <!-- your answer ends here -->
 
 ## Question 7
@@ -151,17 +185,18 @@ Consider the following media queries. How wide would the screen need to be for e
 
 @media (min-width: 400px) {
   .stretch {
-    width: 25%;
+    width: 25%; //100+px
   }
 }
 
 @media (min-width: 800px) {
   .stretch {
-    width: 30%;
+    width: 30%; //240+px
   }
 }
 ```
 
 <!-- your answer starts here -->
-
+The screen would need to be 600px wide for elements with the 'stretch' class to be
+150px wide
 <!-- your answer ends here -->
