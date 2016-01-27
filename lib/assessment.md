@@ -31,7 +31,7 @@ Between the comments below, write HTML to create a basic web page (using the for
 <!-- your answer ends here -->
 
 ## Question 3
-What selectors could we write to select each of the following categories of elements?
+What selectors could we write to reference each of the following categories of elements?
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
 * Any elements that belong both to the `important` and `red` classes
