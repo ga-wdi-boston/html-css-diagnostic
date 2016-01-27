@@ -22,14 +22,25 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The web is a service because it is a system of entities requesting and sending information to each other. A wonderful real-world corollary to this is Netflix (the old kind with DVD's). A person (the client) sends a request to Netflix (the server) for a DVD (some information), and Netflix sends that DVD to the client. The web works the same way, with clients (browsers) requesting information from servers (websites) and in turn those servers sending the requested information to the client.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <body>
+    <header>Title</header>
+    <ul>
+      <li>Thing 1</li>
+      <li>Thing 2</li>
+      <li>Thing 3</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +52,16 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big{
+}
+#contentPane{
+}
+.important.red{
+}
+div p{
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +103,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will have a font-family of cursive because it's an inline style attribute
+it's text color will be yellow because in the CSS code, the color assigned to .specialDiv has greater specificity than that of div
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +116,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content << padding << border << margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +159,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be at the top of right of the page
+divs Two, Three, and Five will be arranged in a row from right to left, next to
+divOne
+divFour will sit below the row with divs Two, Three, and Five
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +187,7 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+stretch elements would be 150px wide when the window is 600 px wide
+400<600<800 so stretch elements would be 25% the width of the window
+600 * 0.25 = 150
 <!-- your answer ends here -->
