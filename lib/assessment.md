@@ -188,5 +188,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-the screen has to be atleast 600px.
+the screen has to be be 600px.
 <!-- your answer ends here -->
