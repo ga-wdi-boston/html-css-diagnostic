@@ -21,7 +21,7 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
+<!-- your answer starts here -->The web is a service in that it serves as a 'middle man' to the clients and servers. A server has content to offer to a client but no means of actually displaying that content for the client to interact with. The client requests this content in order to view and interact with it. The web is the service that requests and retrieves this content from servers and renders it for the client to view and interact with. 
 
 <!-- your answer ends here -->
 
@@ -29,6 +29,20 @@ When we say that the web is a service, what does that mean? Explain the interact
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+```<!DOCTYPE html>
+      <html>
+        <head>
+          <title></title>
+        </head>
+        <body>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </body>
+      </html>
+
 
 <!-- your answer ends here -->
 
@@ -41,7 +55,21 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```.big {
 
+}
+
+#contentPane {
+
+}
+
+.important.red {
+
+}
+
+p:div {
+
+}
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +111,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+yellow and cursive sans-serif
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +123,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content => padding => border => margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +166,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All of the divs will be oriented towards the left side of the page except divOne and divFour. divOne will orient itself to the right side of the page and divFour will clear all other elements and sit below the other elements.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +191,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+It would have to be at least 400px.
 <!-- your answer ends here -->
