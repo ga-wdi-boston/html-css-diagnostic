@@ -22,14 +22,29 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+  Similar to any service we get in real life, there are clients who request services and servers who proivde services.
+  The browser is a client, requesting a website, and servers bring the website to the browser, allowing it
+  to be viewed by the person using the browser.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<html>
+<head>
+  <title>Basic webpage</title>
+</head>
+<body>
+  <ul>Food that I want to eat right now
+    <li>Noodles</li>
+    <li>Kimchi stew</li>
+    <li>Steak</li>
+  </ul>
+</body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +56,12 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big {}
+.contentPane {}
+.important .red {}
+.p {}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +103,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Text color will be yellow, font-family will be sans-serif.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +115,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +158,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The first line will have divOne, divTwo, divThree,and  divOne will be on the right side.
+The second line will have divFour first on the left side.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +184,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+1200px - 400px x 3!
 <!-- your answer ends here -->
