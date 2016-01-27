@@ -102,11 +102,11 @@ Consider the following HTML and CSS. Assuming that the window is much larger tha
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <div id="divOne"></div>
-  <div id="divTwo"></div>
-  <div id="divThree"></div>
-  <div id="divFour"></div>
-  <div id="divFive"></div>
+  <div class="divOne"></div>
+  <div class="divTwo"></div>
+  <div class="divThree"></div>
+  <div class="divFour"></div>
+  <div class="divFive"></div>
 </body>
 </html>
 ```
@@ -120,11 +120,11 @@ div {
   float: left;
 }
 
-#divOne {
+.divOne {
   float: right;
 }
 
-#divFour {
+.divFour {
   clear: left;
 }
 ```
