@@ -22,14 +22,23 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The web is a service that uses the internet. A service has clients and servers. Someone who asks and someone who responds.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+<html>
+  <head>The Title of Webpage X</head>
+    <body>
+      <ul>
+      <li>Here are</li>
+      <li>somethings</li>
+      <li>on a list</li>
+      </ul>
+    </body>
+  </html?
 <!-- your answer ends here -->
 
 ## Question 3
@@ -41,7 +50,7 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+The example we got in class used div as a selector. That seems like it might work with any of these. Not sure what else could be a selector?
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +92,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The text color of specialDiv will be yellow and the font-family will be sans-serif.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +104,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,7 +147,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div will be at the top left, divOne at the right and divFour will be under div on the left.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -163,5 +172,6 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px would make 150px 25% of the screen.
+450px would make 150px 30% of the screen.
 <!-- your answer ends here -->
