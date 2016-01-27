@@ -22,15 +22,28 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+What it means is that the client would send a request for a service to the server and the server would retrieve whatever the client is looking for from its database and send it over to the client.  Netflix is an example that was brought in class.  You send a request to netflix for which movie or show you want to watch and then it would retrieve the appropriate content and send it the you, the client.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
+
 
 ## Question 3
 
@@ -41,7 +54,17 @@ What selectors could we write to reference each of the following categories of e
 * Any `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {
+}
 
+#contentPane {
+}
+
+.important .red {
+}
+
+div > p {
+}
 <!-- your answer ends here -->
 
 ## Question 4
@@ -83,7 +106,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv would have the color yellow and a font-family of cursive since the inline style override the external stylesheet.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +118,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 
 <!-- your answer starts here -->
-
+content > padding > border > margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -138,8 +161,11 @@ div {
 ```
 
 <!-- your answer starts here -->
+This is my original statement which is wrong:
+div one would be floating to the right and divs two and three would be floating to the left.  Then divFour would start underneath cause it was cleared left. And both four and five would be next to each other.
 
-<!-- your answer ends here -->
+Ran code in codepen:
+I found that div one was floating to the right but I didn't expect it to be all the way by itself for some reason. And far to the left it was the format described above.
 
 ## Question 7
 
@@ -163,5 +189,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+The screen would need to be 600px wide.  150/.25 = 600.  It's under 800
 <!-- your answer ends here -->
