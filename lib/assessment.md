@@ -2,19 +2,19 @@ This file is a **markdown** file. Markdown is a special way of formatting text, 
 
 In responding to some of these questions, you may be asked to write HTML or CSS code. Please do so using the following Markdown formatting.
 
-**index.html**
-```HTML
-<html>
-...
-</html>
-```
+##### For HTML
+    ```HTML
+    <html>
+    ...
+    </html>
+    ```
 
-**style.css**
-```CSS
-ul {
-  ...
-}
-```
+##### For CSS
+    ```CSS
+    ul {
+      ...
+    }
+    ```
 
 Using this format will make it easier for us to grade you, so that we can get everyone their feedback faster. Thanks for your help!
 
