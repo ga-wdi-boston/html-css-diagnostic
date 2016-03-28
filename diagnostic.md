@@ -47,7 +47,7 @@ What selectors could we write to reference each of the following categories of e
 
 ## Question 4
 
-Consider the following HTML and CSS code. What text color and font-family values will the div labelled 'specialDiv' have?
+Consider the following HTML and CSS code. What text color and font-family values will the div labeled 'specialDiv' have?
 
 **index.html**
 ```HTML
@@ -94,16 +94,16 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * border
 * margin
 * padding
-
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 6
 
-Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `divs` given below, how will they be arranged on the page?
+Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `div`s given below, how will each `div` be arranged on the page?
 
 **index.html**
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -121,6 +121,7 @@ Consider the following HTML and CSS. Assuming that the window is much larger tha
 ```
 
 **style.css**
+
 ```CSS
 div {
   /* ... */
@@ -145,6 +146,7 @@ div {
 ## Question 7
 
 Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
+
 ```CSS
 .stretch {
   width: 100px;
