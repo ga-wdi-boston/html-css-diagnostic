@@ -39,8 +39,8 @@ Between the comments below, write HTML to create a basic web page (using the for
 What selectors could we write to reference each of the following categories of elements?
 * All elements that belong to the class `big`
 * The element matching ID `contentPane`
-* Any elements that belong both to the `important` and `red` classes
-* Any `p` elements whose parent elements are `div`s
+* Only those elements belonging to both the `important` and `red` classes
+* All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
