@@ -3,6 +3,7 @@ This file is a **markdown** file. Markdown is a special way of formatting text, 
 In responding to some of these questions, you may be asked to write HTML or CSS code. Please do so using the following Markdown formatting.
 
 ##### For HTML
+
     ```HTML
     <html>
     ...
@@ -10,6 +11,7 @@ In responding to some of these questions, you may be asked to write HTML or CSS 
     ```
 
 ##### For CSS
+
     ```CSS
     ul {
       ...
@@ -39,7 +41,6 @@ What selectors could we write to reference each of the following categories of e
 * The element matching ID `contentPane`
 * Any elements that belong both to the `important` and `red` classes
 * Any `p` elements whose parent elements are `div`s
-
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
