@@ -156,6 +156,8 @@ div {
 }
 ```
 
+Please view this reponse in the raw diagnostic.md file for the correct layout.
+
 divTwo divThree                       divOne
 divFour divFive
 
