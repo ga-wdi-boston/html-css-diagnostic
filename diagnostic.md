@@ -23,16 +23,33 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+It is a service in the sense that, upon request, it provides us with a product (in this case,
+what basically amounts to information).  The client using the internet, will send a request
+to a server.  That server processes the request and returns a web page or other product.  These
+requests can be Get, Pull, Post, Delete, and Patch among others.
+
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+```HTML
+<html>
+  <head>
+    <title>A Title</title>
+  </head>
+  <body>
+    <ul>
+      <li>Cats</li>
+      <li>Dogs</li>
+      <li>Lizard</li>
+    </ul>
+  </body>
+</html>
+```
+
+
 
 ## Question 3
 
@@ -43,7 +60,10 @@ What selectors could we write to reference each of the following categories of e
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
 
-<!-- your answer ends here -->
+.big
+#contentPane
+.important.red
+div > p
 
 ## Question 4
 
@@ -83,9 +103,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The font will be yellow & cursive.
 
 ## Question 5
 
@@ -94,9 +112,8 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * border
 * margin
 * padding
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+Content, Padding, Border, Margin
 
 ## Question 6
 
@@ -139,9 +156,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+divOne will be on the upper right side and, if able to fit, divTwo and divThree will be
+to its left.  divFour will be underneath (on a new "line" per se) and will be on the left.
 
 ## Question 7
 
@@ -165,6 +181,4 @@ Consider the following media queries. How wide would the screen need to be for e
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The screen would need to be 600px wide.
