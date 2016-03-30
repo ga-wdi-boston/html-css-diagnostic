@@ -24,13 +24,30 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The service it provides is in managing the transfer of information through requests from clients and responses from servers. When I want to use website.com, i send that request from my client, to a server holding website.com and if succesful, the response sends me the files necessary to load that page in my browser.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+```HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is the title</title>
+  </head>
+  <body>
+    <ul>
+      <li>list iitem</li>
+      <li>list iitem</li>
+      <li>list iitem</li>
+    </ul>
+  </body>
+</html>
+
+```
 
 <!-- your answer ends here -->
 
@@ -43,6 +60,20 @@ What selectors could we write to reference each of the following categories of e
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
 
+```CSS
+.big {
+
+}
+#contentPane {
+
+}
+
+.important.red {
+
+}
+p parentOf
+
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -84,7 +115,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Yellow. font Sans Serif
 <!-- your answer ends here -->
 
 ## Question 5
@@ -96,6 +127,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * padding
 <!-- your answer starts here -->
 
+content=>padding=>border=>margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +172,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+                divOne,
+divTwo,
+divThree        divFour
+divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +201,6 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+anything larger than 400px would increase the width 25%
+anything larger than 800 px would add another 30% width
 <!-- your answer ends here -->
