@@ -24,13 +24,31 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+  The web is a service between the client and the server. The client will send requests to the server for
+  a specific resource and the server will receive that request to locate it. If located, the server will
+  send a response back to the client with the resource that was requested. (i.e I want pizza, server goes
+  to kitchen to see if there is any pizza - and comes back with a pizza -- if they find one.)
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Roberto's World</title>
+    </head>
+    <body>
+      <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+      </ul>
+    </body>
+  </html>
+
 
 <!-- your answer ends here -->
 
@@ -42,6 +60,22 @@ What selectors could we write to reference each of the following categories of e
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
+
+  .big {
+  ...
+  }
+
+  #contentPane {
+  ...
+  }
+
+  .important .red {
+  ...
+  }
+
+  div p {
+  ...
+  }
 
 <!-- your answer ends here -->
 
@@ -84,7 +118,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+  The specialDiv will be yellow and in cursive.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +129,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +174,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div's 2,3 and 5 will be floated to the left in order. Div 1 will be to the far right.
+Div four will be beneath divs 1-3 and 4.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +201,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+  The screen will need to be larger than 400px.
 <!-- your answer ends here -->
