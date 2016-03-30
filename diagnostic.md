@@ -24,13 +24,30 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+The web is a 'service' because it consists of a series of requests and responses to requests. As an individual 'surfing' the 'information superhighway', we make requests to servers via our clients(browsers) and receive information back from them which our browsers use to display websites on the screen.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nick's Primate Repair Service</title>
+  </head>
+  <body>
+    <h1>Services Offered:</h1>
+    <ul>
+      <li>Monkey Maintenance</li>
+      <li>Orangutan Overhaul</li>
+      <li>Tarseer Tune-Up</li>
+    </ul>
+  </body>
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -41,7 +58,15 @@ What selectors could we write to reference each of the following categories of e
 * The element matching ID `contentPane`
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
+
 <!-- your answer starts here -->
+
+```CSS
+.big {}
+#contentPane {}
+.important .red {}
+div p {}
+```
 
 <!-- your answer ends here -->
 
@@ -84,7 +109,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: cursive;
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +121,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content,padding,border,margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +166,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+5,4,3,2,1 from left to right on one line
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +192,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px
 <!-- your answer ends here -->
