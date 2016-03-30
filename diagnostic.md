@@ -24,14 +24,28 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+Clients (browsers and browser-esque things) send requests for specific resources to servers. Servers then send responses back to the client with the requested resource and other data.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </body>
+  </html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -42,7 +56,22 @@ What selectors could we write to reference each of the following categories of e
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
+```CSS
+.big{
 
+}
+
+#contentPane{
+
+}
+
+.important.red{
+
+}
+ div p{
+
+ }
+ ```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -84,7 +113,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Yellow, cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +124,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +172,9 @@ div {
 ```
 
 <!-- your answer starts here -->
+divTwo, divThree, divFive, divOne
 
+div Four
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +200,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px
 <!-- your answer ends here -->
