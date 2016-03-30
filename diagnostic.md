@@ -24,14 +24,30 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+Web service is the 'content' or 'resource' stored within the server. When a user tries to access a website, the client (computer or browser) requests  resource or service from the server. The server then sends the requested resource or service back to the client. So the server is always listening to for request.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Website</title>
+  </head>
 
+  <body>
+    <h3>My Unordered List</h3>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -42,6 +58,26 @@ What selectors could we write to reference each of the following categories of e
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
+
+```CSS
+.big {
+
+}
+
+#contentPane {
+
+}
+
+.important .red {
+
+}
+
+div p {
+
+}
+
+
+```
 
 <!-- your answer ends here -->
 
@@ -84,7 +120,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The color to will be yellow and the font will be sans-serif.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +131,10 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +179,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div one will be upper right of the screen.
+div two will be to the left of div one.
+div three will be to the left of two.
+div four will be to the left of the screen on a separate row from the other divs.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +208,5 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+900px
 <!-- your answer ends here -->
