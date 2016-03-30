@@ -59,7 +59,7 @@ What selectors could we write to reference each of the following categories of e
 .big {}
 #contentPane {}
 .important.red {}
-div p {}
+div > p {}
 ```
 
 ## Question 4
