@@ -24,15 +24,31 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
+Because a browser is technically a client, who interacts and sends/receives requests from the webserver.
 
+Websites/apps are hosted through a “web server (nginx)”.
+The web server communicates with the web client (a browser- chrome), and the website/app.
+When I search “google” into my browser URL, my browser (the “client”) is submitting a request to the web server. The request includes 2 things: the method (what I’m asking it to do - “get” google), and the URI (the location of what it’s looking for - the url, or a shorthand). A request is processed by the web server, and a response is sent to the client.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!DOCTYPE html>
+<html>
+  <header>
+  </header>
+    <head>
+      <title></title>
+    </head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
 
 ## Question 3
 
@@ -41,9 +57,15 @@ What selectors could we write to reference each of the following categories of e
 * The element matching ID `contentPane`
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+.big{
+}
+
+#important #red {
+}
+
+div p{
+}
 
 ## Question 4
 
@@ -82,9 +104,9 @@ div {
   font-size: 16px;
 }
 ```
-
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: cursive; (inline specificity)
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +117,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content > padding > boder > marging
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +162,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne, divTwo, divThree will float left and be side by side
+divFour and divFive will stack vertically below
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +189,6 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+800px
+I'm not sure.
 <!-- your answer ends here -->
