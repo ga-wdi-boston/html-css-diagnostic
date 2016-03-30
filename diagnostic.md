@@ -23,27 +23,55 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+The internet is a service in that functions can be interperted and executed over ther internet using protocols such as http. Clients will sent a request to a server using an URI, and the server will attempt to locate the information and send a response back to the client. Occassionally, the client will end up sending or changing information on the server.
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+```HTML
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Title</title>
+    </head>
+    <body>
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </body>
+</html>
 
 ## Question 3
 
 What selectors could we write to reference each of the following categories of elements?
 * All elements that belong to the class `big`
-* The element matching ID `contentPane`
-* Only those elements belonging to both the `important` and `red` classes
-* All `p` elements whose parent elements are `div`s
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+    CSS for all these #3 answers
+
+
+  .big {
+
+  }
+
+* The element matching ID `contentPane`
+*
+  #contentPane{
+
+  }
+
+* Only those elements belonging to both the `important` and `red` classes
+  .content.pane{
+
+  }
+
+* All `p` elements whose parent elements are `div`s
+  div.p{
+
+  }
 
 ## Question 4
 
@@ -83,9 +111,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Yellow
 
 ## Question 5
 
@@ -94,9 +120,11 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * border
 * margin
 * padding
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+  1. Content
+  2. Padding
+  3. Border
+  4. Margin
 
 ## Question 6
 
@@ -139,9 +167,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+it would be positioned div2/div3/div4/div5/div1 assuming the could all fit on the same line. If they couldnt, it would look something like:  div2/div3/div4
+                      div5      div1
 
 ## Question 7
 
@@ -165,6 +192,4 @@ Consider the following media queries. How wide would the screen need to be for e
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+600px
