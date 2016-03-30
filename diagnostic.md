@@ -23,17 +23,23 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<```HTML
+<html>
+The web is place that responds to the request of a client which would be the user. The client would be the browser that requests documentation it wants retrieved from the server. The server would then respond with an answer of delivering that documentation or messaging with a no or error, etc. basically.
+</html>
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+    </body>
+  </head>
+</html>
+```
 ## Question 3
 
 What selectors could we write to reference each of the following categories of elements?
@@ -41,10 +47,13 @@ What selectors could we write to reference each of the following categories of e
 * The element matching ID `contentPane`
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
-<!-- your answer starts here -->
+```CSS
+ul {
+  <div = big {
 
-<!-- your answer ends here -->
-
+  }
+}
+```
 ## Question 4
 
 Consider the following HTML and CSS code. What text color and font-family values will the div labeled 'specialDiv' have?
@@ -83,10 +92,12 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+```CSS
+ul {
+  yellow
+  sans-serif
+}
+```
 ## Question 5
 
 Order the following parts of the box model from 'innermost' to 'outermost'.
@@ -94,10 +105,14 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * border
 * margin
 * padding
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+```CSS
+ul {
+  content
+  padding
+  border
+  margin
+}
+```
 ## Question 6
 
 Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `div`s given below, how will each `div` be arranged on the page?
@@ -165,6 +180,8 @@ Consider the following media queries. How wide would the screen need to be for e
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```CSS
+ul {
+  100%
+}
+```
