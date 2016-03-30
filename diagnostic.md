@@ -24,14 +24,26 @@ Using this format will make it easier for us to grade you, so that we can get ev
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
 <!-- your answer starts here -->
-
+It is a service in that it is the medium in which clients and servers interact and it fascilitates that interaction.  Clients send requests to servers which are processed by the server and then returned to the client in the form of a response that is composed of the material the client originally requested.
 <!-- your answer ends here -->
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is the title</title>
+  </head>
+  <body>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -42,7 +54,11 @@ What selectors could we write to reference each of the following categories of e
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
 <!-- your answer starts here -->
-
+'.big'
+'#contentPane'
+'.important.red'
+'div > p'
+//not sure about the last one
 <!-- your answer ends here -->
 
 ## Question 4
@@ -84,7 +100,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+font-family: cursive
+color: yellow
 <!-- your answer ends here -->
 
 ## Question 5
@@ -95,7 +112,7 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * margin
 * padding
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -140,7 +157,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div 1 floated top right, div 2 floated top left, div 3 to the right of div 1, div 4 under div 2, div 5 to the right of div 4.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -166,5 +183,6 @@ Consider the following media queries. How wide would the screen need to be for e
 ```
 
 <!-- your answer starts here -->
-
+600px
+//does the second @media override the first?
 <!-- your answer ends here -->
