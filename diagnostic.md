@@ -23,16 +23,25 @@ Using this format will make it easier for us to grade you, so that we can get ev
 ## Question 1
 
 When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+It is a request/response mechanism.  The cleint makes a request from the server and the server replies with a response.
 
 ## Question 2
 
 Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!DOCTYPE html>
+  <html>
+    <head>
+     <title>Title goes here</title>
+    </head>
+      <body>
+      <ul>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+      </ul>
+      </body>
+    </html>
 
 ## Question 3
 
@@ -41,9 +50,11 @@ What selectors could we write to reference each of the following categories of e
 * The element matching ID `contentPane`
 * Only those elements belonging to both the `important` and `red` classes
 * All `p` elements whose parent elements are `div`s
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+.big {}
+#contentPane{}
+.import.red{}
+.div > p{}
 
 ## Question 4
 
@@ -83,9 +94,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+color: yellow
+font-family: cursive;
 
 ## Question 5
 
@@ -94,9 +104,11 @@ Order the following parts of the box model from 'innermost' to 'outermost'.
 * border
 * margin
 * padding
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+1) Content'
+2) Padding
+3) border
+4) margin
 
 ## Question 6
 
@@ -137,11 +149,9 @@ div {
 .divFour {
   clear: left;
 }
-```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+divOne will float right
+divFour will float left below the other divThree
 
 ## Question 7
 
@@ -165,6 +175,4 @@ Consider the following media queries. How wide would the screen need to be for e
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+2.5 inches
