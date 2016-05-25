@@ -31,7 +31,13 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
+I think this means that a user, for example, someone on a computer
+or smartphone that is connected to the internet is a "client" and that
+when they use a web application, they are sending requests, and
+the servers that host the applications provide the service.
 
+In that way, you have clients (user agents) and servers which
+host the actual services.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +47,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Page Title</title>
+  </head>
+  <body>
+    <ul>
+      <li>item 0</li>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+  </body>
+</html>
+``
 
 <!-- your answer ends here -->
 
@@ -54,7 +75,13 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+`.big`
 
+`#contentPane`
+
+`.important.red`
+
+`div > p`
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +126,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Due to specificity, specialDiv will have font-family: cursive.
+It will have color: yellow.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +138,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,6 +185,16 @@ div {
 ```
 
 <!-- your answer starts here -->
+All of the divs except for divFour will be in a line on the top.
+divOne will be all the way on the right because it floats right.
+The other divs will be lined up from left to right in order, with divOne on the right.
+
+divFour will float to the left, but will be in its own row under the others (all the way to the left).
+
+I think the arrangement looks like this:
+
+divTwo, divThree, divFive, divOne
+divFour
 
 <!-- your answer ends here -->
 
@@ -184,5 +222,8 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+The min width for 550px means we will be under 800, and above 400,
+so we get the 25%.
 
+25% * 550px = 137.5px.
 <!-- your answer ends here -->
