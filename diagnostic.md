@@ -192,7 +192,7 @@ div {
 
 <!-- your answer starts here -->
 
-divOne will move to the top right corner of the page. All the other boxes will shift to the top, remaining in their initial horizontal location as if divOne was not even there. 
+divOne will move to the top right corner of the page. All the other boxes will shift to the top, remaining in their initial horizontal location as if divOne was not even there.
 
 <!-- your answer ends here -->
 
@@ -221,6 +221,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 
 <!-- your answer starts here -->
 
-100px
+25px
 
 <!-- your answer ends here -->
