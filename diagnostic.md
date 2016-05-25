@@ -1,8 +1,12 @@
-This file is a **markdown** file. Markdown is a special way of formatting text, and one that's used by GitHub in its README files.
+# HTML & CSS Diagnostic
 
-In responding to some of these questions, you may be asked to write HTML or CSS code. Please do so using the following Markdown formatting.
+This file is a **markdown** file. Markdown is a special way of formatting text,
+and one that's used by GitHub in its README files.
 
-##### For HTML
+In responding to some of these questions, you may be asked to write HTML or CSS
+code. Please do so using the following Markdown formatting.
+
+## For HTML
 
     ```HTML
     <html>
@@ -10,7 +14,7 @@ In responding to some of these questions, you may be asked to write HTML or CSS 
     </html>
     ```
 
-##### For CSS
+## For CSS
 
     ```CSS
     ul {
@@ -18,38 +22,48 @@ In responding to some of these questions, you may be asked to write HTML or CSS 
     }
     ```
 
-Using this format will make it easier for us to grade you, so that we can get everyone their feedback faster. Thanks for your help!
+Using this format will make it easier for us to grade you, so that we can get
+everyone their feedback faster. Thanks for your help!
 
 ## Question 1
 
-When we say that the web is a service, what does that mean? Explain the interaction in terms of clients and servers.
+When we say that the web is a service, what does that mean? Explain the
+interaction in terms of clients and servers.
+
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 2
 
-Between the comments below, write HTML to create a basic web page (using the format described in the instructions). The page should have a title in the head and an unordered list (with three items) inside the body.
+Between the comments below, write HTML to create a basic web page (using the
+format described in the instructions). The page should have a title in the head
+and an unordered list (with three items) inside the body.
+
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 3
 
-What selectors could we write to reference each of the following categories of elements?
-* All elements that belong to the class `big`
-* The element matching ID `contentPane`
-* Only those elements belonging to both the `important` and `red` classes
-* All `p` elements whose parent elements are `div`s
+How would we reference each of the following categories of elements?
+
+-   All elements that belong to the _class_ `big`
+-   The element matching _ID_ `contentPane`
+-   Only those elements belonging to both the `important` and `red` _classes_
+-   All `p` elements whose parent elements are `div`s
+
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 4
 
-Consider the following HTML and CSS code. What text color and font-family values will the div labeled 'specialDiv' have?
+Consider the following HTML and CSS code. What text color and font-family values
+will the div labeled 'specialDiv' have?
 
 **index.html**
+
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -65,6 +79,7 @@ Consider the following HTML and CSS code. What text color and font-family values
 ```
 
 **main.css**
+
 ```CSS
 * {
   color: black;
@@ -89,18 +104,20 @@ div {
 
 ## Question 5
 
-Order the following parts of the box model from 'innermost' to 'outermost'.
-* content
-* border
-* margin
-* padding
+Order the following parts of the _box model_ from **'innermost'** to
+**'outermost'**.
+
+content, border, margin, padding
+
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
 
 ## Question 6
 
-Consider the following HTML and CSS. Assuming that the window is much larger than the dimensions of any of the `div`s given below, how will each `div` be arranged on the page?
+Consider the following HTML and CSS. Assuming that the window is much larger
+than the dimensions of any of the `div`s given below, how will each `div` be
+arranged on the page?
 
 **index.html**
 
@@ -145,7 +162,8 @@ div {
 
 ## Question 7
 
-Consider the following media queries. How wide would the screen need to be for elements with the class `stretch` to have a width of 150 pixels?
+Consider the following media queries. How wide, in `px`, would an element
+with the class `.stretch` be at a _screen width_ of 550px?
 
 ```CSS
 .stretch {
