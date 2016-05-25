@@ -31,7 +31,8 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is a service in that it allows a means for a client to communicate and
+interact with a server anywhere else in the world.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +42,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +68,18 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big {
+};
+#contentPane {
+};
+.important.red {
+};
+div > p {
+};
+
+```
+
 
 <!-- your answer ends here -->
 
@@ -99,7 +125,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color: yellow
+font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +137,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+margin > border > padding > content
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +184,12 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+If the page was divided into rows, divOne will be on the right side of the
+page, on the first row, while divs two-3 will start on the left side on the
+second row and be lined up next to each other from the left of the page. div
+four will have a space between it and the previous divs, and be on its own
+line. div 5 will have its own row and the top of the div will be right against
+the bottom of div4
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +216,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+165px
 <!-- your answer ends here -->
