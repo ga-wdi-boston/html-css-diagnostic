@@ -61,7 +61,8 @@ and an unordered list (with three items) inside the body.
     </ul>
   </body>
 </html>
-```
+``
+
 <!-- your answer ends here -->
 
 ## Question 3
@@ -74,7 +75,13 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+`.big`
 
+`#contentPane`
+
+`.important.red`
+
+`div > p`
 <!-- your answer ends here -->
 
 ## Question 4
