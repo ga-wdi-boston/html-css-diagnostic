@@ -162,8 +162,8 @@ div {
 
 ## Question 7
 
-Consider the following media queries. How wide would the screen need to be for
-elements with the class `stretch` to have a width of 150 pixels?
+Consider the following media queries. How wide, in `px`, would an element
+with the class `.strech` be at a _screen width_ of 550px?
 
 ```CSS
 .stretch {
