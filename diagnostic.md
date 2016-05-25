@@ -31,7 +31,8 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web allows communication between clients who will make requests and servers
+who will respond/send responses. 
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +42,18 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+  <head>
+    <title>Here is a web page!</title>
+  </head>
+  <body>
+    <ul>
+      <li>I need</li>
+      <li>to have</li>
+      <li>three liste items</li>
+    </ul>
+  </body>
 
 <!-- your answer ends here -->
 
@@ -55,6 +68,21 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+```CSS
+.big{
+
+}
+#contentPane {
+
+}
+.important .red {
+
+}
+div > p {
+
+}
+```
+
 <!-- your answer ends here -->
 
 ## Question 4
@@ -65,6 +93,7 @@ will the div labeled 'specialDiv' have?
 **index.html**
 
 ```HTML
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,6 +105,7 @@ will the div labeled 'specialDiv' have?
     </div>
   </div>
 </html>
+
 ```
 
 **main.css**
@@ -99,7 +129,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+yellow and cursive.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +140,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+ content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +187,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree,               divOne (all the way to the right)
+divFour, divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +215,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25 px.
 <!-- your answer ends here -->
