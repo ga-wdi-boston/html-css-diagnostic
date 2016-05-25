@@ -30,9 +30,9 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
+Web is a service, because it uses HTTP (Hypertext Transfer Protocol) to serve the files that form Web pages to users, in response to their requests.
 
-<!-- your answer ends here -->
+Client send request, and servers respond it accordingly.
 
 ## Question 2
 
@@ -40,9 +40,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      This is a title
+    </title>
+  </head>
+  <body>
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+    </ul>
+  </body>
+</html>
 
-<!-- your answer ends here -->
 
 ## Question 3
 
@@ -53,9 +66,9 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+//class = "big"; id = "contentPane"; class = "important red"; <div><p></p></div>;
 
-<!-- your answer ends here -->
+.big {...}; #contentPane {...}; .important .red {...}; div p {...};
 
 ## Question 4
 
@@ -98,9 +111,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+text color: yellow;
+font-family: sans-serif;
 
 ## Question 5
 
@@ -109,9 +121,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content -> padding -> border -> margin
 
 ## Question 6
 
@@ -156,9 +166,9 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Only divOne will take up top right corner;
+divTwo and divThree will take up same row as divOne, but on the top left corner, they will stand side by side;
+divFour and divFive will rightbelow divTwo and divThree, and they will also stand side by side.
 
 ## Question 7
 
@@ -183,6 +193,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Width of Element in .Stretch will be 25px in that screen;
