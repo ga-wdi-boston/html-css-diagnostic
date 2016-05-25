@@ -31,6 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
+The web is a service like any other. Clients make requests that are sent out over the web. Servers recieve this request and then if they can send back the request fulfilled just like a normal brick and mortar service would.
 
 <!-- your answer ends here -->
 
@@ -41,6 +42,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Diagnostic</title>
+  </head>
+  <body>
+  <ul>
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+  </ul>
+  </body>
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -54,7 +70,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+- .big
+- #contentPane
+- .important.red
+- div p
+```CSS
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +120,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow
+font-family: sans-serif
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +132,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content,padding,border,margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,6 +179,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+Might need some help with this one but my guess is the div's are arranged like this:
+
+2-3-1
+4
 
 <!-- your answer ends here -->
 
@@ -184,5 +210,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+70px
 
 <!-- your answer ends here -->
