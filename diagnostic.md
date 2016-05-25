@@ -185,6 +185,16 @@ div {
 ```
 
 <!-- your answer starts here -->
+All of the divs except for divFour will be in a line on the top.
+divOne will be all the way on the right because it floats right.
+The other divs will be lined up from left to right in order, with divOne on the right.
+
+divFour will float to the left, but will be in its own row under the others (all the way to the left).
+
+I think the arrangement looks like this:
+
+divTwo, divThree, divFive, divOne
+divFour
 
 <!-- your answer ends here -->
 
