@@ -32,6 +32,8 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+The web can be seen as a service since you can make different request and receive information from the web. In order to do so you need a client (e.g any webbrowser) or Telnet or cURL. The client is able now to communicate with the server and make request the server will response.  A server can be seen as a network application that is able to communicate with the web and retrieve/delete/update or create infromation.
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +43,24 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of webpage </title>
+  </head>
+
+    <body>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </body>
+
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -54,6 +74,23 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+```CSS
+- .big {
+
+}
+- #contentPane {
+
+}
+- .important.red {
+
+}
+
+- div > p {
+
+}
+
+```
 
 <!-- your answer ends here -->
 
@@ -99,6 +136,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+'specialDiv'
+
+text color: yellow
+font-family values: cursive
 
 <!-- your answer ends here -->
 
@@ -110,6 +151,8 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+
+- content, padding, border, margin
 
 <!-- your answer ends here -->
 
@@ -158,6 +201,12 @@ div {
 
 <!-- your answer starts here -->
 
+First div will float all the way to the right
+
+second and third will be in the top corner floated next to each other
+
+four and five will go under 2 and 3 and float to the left.
+
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +233,9 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+
+550px as a screen width is bigger than the requested min-width of 400px from the first @media request but smaller necessary for the second once, so the first would apply.
+
+--> the width would be 25% from the original width that we can see at .strech (100px) --> The element would be 75px big.
 
 <!-- your answer ends here -->
