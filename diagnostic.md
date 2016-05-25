@@ -30,9 +30,13 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
+The web provides online accessibility to users, and this is done through the interaction
+between clients and servers. Clients can be defined as web browsers or smartphone
+apps that send out requests to the servers, and the servers are able to identify the
+type of resource requested, what it will be used for, and it delivers it to the client.
+The client, then, receives and displays the resource in its appropriate format whether
+that is in the form of pdf files, a web page or images. 
 
-<!-- your answer ends here -->
 
 ## Question 2
 
@@ -40,9 +44,20 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diagnostic</title>
+  </head>
+  <body>
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+  </body>
+</html>
 
-<!-- your answer ends here -->
 
 ## Question 3
 
@@ -53,9 +68,11 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+1. .big
+2. #contentPane
+3. .important, .red
+4. div p
 
-<!-- your answer ends here -->
 
 ## Question 4
 
@@ -98,9 +115,9 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+specialDiv will have the color yellow and it will first display the font-family
+cursive, and if that is not available it will choose a generic sans-serif font.
 
-<!-- your answer ends here -->
 
 ## Question 5
 
@@ -109,9 +126,8 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
+Content --> Padding --> Border --> Margin
 
-<!-- your answer ends here -->
 
 ## Question 6
 
@@ -156,9 +172,10 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+divTwo, divThree, and divFive will be arranged on the same horizontal plane on
+the left side, while divOne will be floated to the right of the other divs (also on the same line).
+divFour will appear right after the line break, underneath the div's.   
 
-<!-- your answer ends here -->
 
 ## Question 7
 
@@ -183,6 +200,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
+The media query (min-width: 400px) kicks in, assigning .stretch to 25% of the width
+the pixels available on the screen.
 
-<!-- your answer ends here -->
+550px * .25 = 137.5px
