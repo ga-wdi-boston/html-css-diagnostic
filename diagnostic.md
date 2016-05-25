@@ -31,7 +31,10 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is a service for users, who initiate client requests to a server. The
+server then processes the request and sends a response to the client, which then
+interprets and displays the response to the user, who may then make further
+requests.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +44,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <title>MYWEBPAGESOAWESOME</title>
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <ul>
+      <li>MYTHINGS</li>
+      <li>MYSTUFF</li>
+      <li>MYITEMS</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -55,6 +72,27 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+I'm a little confused by the wording of this question. It seems to want the way
+css refers to classes/id's already created in an html file, so I'm going to
+answer in css.
+
+```CSS
+.big {
+
+}
+
+#contentPane {
+
+}
+
+.important .red {
+
+}
+
+div > p {
+
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +137,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv's content would have a font-family of cursive and a text color of
+yellow.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +149,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+(inner) content > padding > border > margin (outer)
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +196,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne above divFour on right, rest above eachother sequentially on left.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +223,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30px
 <!-- your answer ends here -->
