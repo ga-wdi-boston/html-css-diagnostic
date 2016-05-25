@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is a service because different machines and programs communicate with each other to run and function properly. Servers store information, and clients make requests to servers, asking the servers to send them the information, so the client can use it.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,29 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    Awesome page
+    </title>
+  </head>
+  <body>
+    <ul>
+      <li>
+      An item
+      </li>
+      <li>
+      Another item
+      </li>
+      <li>
+      Still another item
+      </li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +76,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+ - .big
+ - #contentPane
+ - .important.red
+ - div>p
 <!-- your answer ends here -->
 
 ## Question 4
