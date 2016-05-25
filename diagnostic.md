@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+it's kind of like the web is in teh business between clients and servers and making sure their exchanges happen.  clients send requests to servers and servers generate responses that they in turn send back to clients.  this is like entering google.com to the google servers and then google.com responding with the google.com homepage to our client computer to use their search engine.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+'''HTML
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+    </head>
+    <body>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      <ul>
+    </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +67,11 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+''''CSS
+.big {}
+#contentPane {}
+.important.red {}
+div p {}
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +116,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+its font family will be cursive and its color will be yellow
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +127,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, margin, border
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +174,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+div one is all the way on teh right, top side of the page. divs two and three will be in line left to right starting in top left corner of page. div four will break this left to right pattern and skip to the next line.  it will be directly under the div two.  div five will be inline to the right of div five
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +201,13 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30 px
 <!-- your answer ends here -->
+
+
+Comfort: 4
+Clarity: 4
+
+I feel like the positioning stuff will take a LOT of repetition to really get the hang of.
+
+I used Google, codepen.io yesterday's class work and past knowledge to answer this.
