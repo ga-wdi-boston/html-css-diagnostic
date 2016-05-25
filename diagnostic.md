@@ -31,7 +31,8 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+the client makes requests to web servers and the web server servers up content
+back to the browser in the form of HTML/CSS/JavaScript/JSON
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +42,17 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<head>
+<Title>Title of Page</Title>
+</head>
+<body>
+  <ul>
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+  </ul>
+</body>
 
 <!-- your answer ends here -->
 
@@ -54,7 +66,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+  big {
 
+  }
+
+  #contentPane {
+
+  }
+
+  .important .red {
+
+  }
+
+  p div:parent {
+  
+  }
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +125,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+yellow, sans-serif cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +136,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +183,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+DivTwo, DivThree,divOne
+DivFour, DivFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +211,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+137.5px
 <!-- your answer ends here -->
