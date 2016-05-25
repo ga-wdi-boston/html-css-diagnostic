@@ -30,7 +30,10 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-The
+The web is something used and accessed by clients and provides a service. The web is a
+means by which clients access data on servers and the communication between the two is
+facilitated by the web and specific components between the client and server set up
+following a specific set of rules and standards.
 
 ## Question 2
 
@@ -72,17 +75,17 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-1. (".big").find
-2. ("#contentPane").val
-3. .important.red
-4. ("p").parent("div")
+1. .big{}
+2. #contentPane {}
+3. .important.red{}
+4. p.div {}
 
 ## Question 4
 
 Consider the following HTML and CSS code. What text color and font-family values
 will the div labeled 'specialDiv' have?
 
-The text color will be yellow and the font family will be sans-serif. 
+The text color will be yellow and the font family will be sans-serif.
 **index.html**
 
 ```HTML
@@ -127,9 +130,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Content, padding, border, margin
 
 ## Question 6
 
@@ -174,9 +175,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+divTwo, divThree, divFive, divOne, divFour
 
-<!-- your answer ends here -->
 
 ## Question 7
 
@@ -201,6 +201,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Width is 25% of 550px so 137.5px
