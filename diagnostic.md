@@ -31,7 +31,13 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
+I think this means that a user, for example, someone on a computer
+or smartphone that is connected to the internet is a "client" and that
+when they use a web application, they are sending requests, and
+the servers that host the applications provide the service.
 
+In that way, you have clients (user agents) and servers which
+host the actual services.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +47,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Page Title</title>
+  </head>
+  <body>
+    <ul>
+      <li>item 0</li>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
