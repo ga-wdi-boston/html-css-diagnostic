@@ -193,9 +193,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-divTwo, divThree, divOne (in a row like that)
-divFour
-divFive
+divTwo, divThree, divOne (in a row in that order)
+divFour (except it may be running into divOne or something because it only cleared left), divFive (in same row as divFour)
 <!-- your answer ends here -->
 
 ## Question 7
