@@ -163,7 +163,7 @@ div {
 ## Question 7
 
 Consider the following media queries. How wide, in `px`, would an element
-with the class `.strech` be at a _screen width_ of 550px?
+with the class `.stretch` be at a _screen width_ of 550px?
 
 ```CSS
 .stretch {
