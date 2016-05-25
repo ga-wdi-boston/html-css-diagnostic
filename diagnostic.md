@@ -222,5 +222,8 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-30% * 550px = 165px.
+The min width for 550px means we will be under 800, and above 400,
+so we get the 25%.
+
+25% * 550px = 137.5px.
 <!-- your answer ends here -->
