@@ -124,7 +124,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+font-family will be cursive
+color will be yellow
 <!-- your answer ends here -->
 
 ## Question 5
@@ -135,7 +136,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -182,7 +183,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree, divOne (in a row like that)
+divFour
+divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -209,5 +212,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+It would be 137.5px.
 <!-- your answer ends here -->
