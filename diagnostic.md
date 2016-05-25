@@ -76,10 +76,20 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
- - .big
- - #contentPane
- - .important.red
- - div>p
+```CSS
+.big {
+  ...
+}
+#contentPane {
+  ...
+}
+.important.red{
+  ...
+}
+div>p{
+  ...
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
