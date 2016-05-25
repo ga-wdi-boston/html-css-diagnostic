@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+By saying that the web is a service, you mean that requests get sent out by clients (computers/programs), and they are transmitted to the server.  The server receives that request and, when appropriate, gives a response to that client.  There is an exchange of information that classifies this interaction as a service.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+  <!DOCTYPE html>
+    <html>
+      <head>
+        <title>This is my list of things!</title>
+      </head>
+      <body>
+        <ul>
+          <li>Stuff</li>
+          <li>Junk</li>
+          <li>Bongos</li>
+        </ul>
+      </body>
+    </html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +68,20 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+  .big {
+  } elements that belong to the _class_ `big`
 
+  #contentPane{
+   } element matching _ID_ `contentPane`
+
+  #important #red {
+  } elements belonging to both the `important` and `red` _classes_
+
+  div p {
+  } `p` elements whose parent elements are `div`s
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +126,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will have the color of the font in yellow and the font-family will be cursive.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +137,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +184,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The first div will be on right side of the page.  Then, divs 2 and 3 will be lined up on the left side of the page.  Divs 4 and 5 will be lined up below divs 2 and 3.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +211,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+The element would be 25px if the _screen width_ were 550px.
 <!-- your answer ends here -->
