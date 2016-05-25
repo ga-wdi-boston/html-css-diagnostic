@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is a service because different machines and programs communicate with each other to run and function properly. Servers store information, and clients make requests to servers, asking the servers to send them the information, so the client can use it.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,29 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    Awesome page
+    </title>
+  </head>
+  <body>
+    <ul>
+      <li>
+      An item
+      </li>
+      <li>
+      Another item
+      </li>
+      <li>
+      Still another item
+      </li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +76,20 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big {
+  ...
+}
+#contentPane {
+  ...
+}
+.important.red{
+  ...
+}
+div>p{
+  ...
+}
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +134,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+font-family will be cursive
+color will be yellow
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +146,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +193,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree, divOne (in a row in that order)
+divFour (except it may be running into divOne or something because it only cleared left), divFive (in same row as divFour)
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +221,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+It would be 137.5px.
 <!-- your answer ends here -->
