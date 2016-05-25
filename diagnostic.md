@@ -222,5 +222,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30% * 550px = 165px.
 <!-- your answer ends here -->
