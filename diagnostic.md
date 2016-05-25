@@ -126,7 +126,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Due to specificity, specialDiv will have font-family: cursive.
+It will have color: yellow.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -137,7 +138,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
