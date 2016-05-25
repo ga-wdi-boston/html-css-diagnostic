@@ -30,9 +30,7 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The
 
 ## Question 2
 
@@ -40,9 +38,30 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<head>
+  <title>This excellent website
+  </title>
+</head>
+<body>
+  <div>
+    <h1>
+    Hey look, a list!
+    </h1>
+    <ul>
+      <li>
+      Item 1
+      </li>
+      <li>
+      Item 2
+      </li>
+      <li>
+      Item 3
+      </li>
+    </ul>
+  </div>
+</body>
 
-<!-- your answer ends here -->
 
 ## Question 3
 
@@ -53,15 +72,17 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+1. (".big").find
+2. ("#contentPane").val
+3. .important.red
+4. ("p").parent("div")
 
 ## Question 4
 
 Consider the following HTML and CSS code. What text color and font-family values
 will the div labeled 'specialDiv' have?
 
+The text color will be yellow and the font family will be sans-serif. 
 **index.html**
 
 ```HTML
@@ -98,9 +119,6 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
 
 ## Question 5
 
