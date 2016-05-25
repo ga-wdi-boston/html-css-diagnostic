@@ -31,7 +31,8 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web allows communication between clients who will make requests and servers
+who will respond/send responses. 
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +42,7 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
 <!DOCTYPE html>
   <head>
     <title>Here is a web page!</title>
@@ -52,6 +54,7 @@ and an unordered list (with three items) inside the body.
       <li>three liste items</li>
     </ul>
   </body>
+
 <!-- your answer ends here -->
 
 ## Question 3
@@ -64,6 +67,8 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+```CSS
 .big{
 
 }
@@ -76,6 +81,8 @@ How would we reference each of the following categories of elements?
 div > p {
 
 }
+```
+
 <!-- your answer ends here -->
 
 ## Question 4
@@ -86,6 +93,7 @@ will the div labeled 'specialDiv' have?
 **index.html**
 
 ```HTML
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -97,6 +105,7 @@ will the div labeled 'specialDiv' have?
     </div>
   </div>
 </html>
+
 ```
 
 **main.css**
@@ -178,7 +187,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-divTwo, divThree, divFour, divFive divOne
+divTwo, divThree,               divOne (all the way to the right)
+divFour, divFive
 <!-- your answer ends here -->
 
 ## Question 7
