@@ -30,9 +30,12 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
+<!-- We say it is a service because it has clients that are requesting information from servers
+which the respond with what the client was asking or looking for-->
 
-<!-- your answer ends here -->
+<!-- clarity 5
+      comfort 5
+      knowledge-->
 
 ## Question 2
 
@@ -41,7 +44,23 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>This Webstie</title>
+</head>
+<body>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</body>
+</html>
 
+comfort 5
+clarity 5
+knowledge
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +73,14 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {}
+.contentPane {}
+.important,red {}
+.div>p {}
 
+clarity 5
+comfort 5
+used google to look up 3rd and 4th response
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +125,11 @@ div {
 ```
 
 <!-- your answer starts here -->
+it will have san-serif and yellow text
 
+comfort 5
+clarity 5
+knowledge
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +140,11 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+Padding, Border, Margin
 
+comfort 5
+clarity 5
+knowledge
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +191,16 @@ div {
 ```
 
 <!-- your answer starts here -->
+div will be floated on the left side of the page
+divOne will be floated on the right side of the page
+divTwo will be under div with a gap but not floated
+DivThree will be right next to divTwo on the right side
+divFour will be on the left side but not floated
+divFive will be right under divFour connected and touching it
 
+comfort 3
+clarity 3
+knowledge
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +227,10 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+i believe it would be 25% because the min width for 25 is 400px and the min width for 30% is 800px
+
+clarity 4
+comfort 4
+knowledge
 
 <!-- your answer ends here -->
