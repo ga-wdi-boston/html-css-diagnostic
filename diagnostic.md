@@ -31,7 +31,10 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+It is a protocol used for sending documents aka webpages or html and other files
+to and from the server and the client. The client is the web page. The server is
+the machine which the progams which send the instructions to the client is done
+on.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +44,16 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```
+<html>
+<head>
+<meta></meta>
+<Title></Title>
+</head>
+<body>
+</body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -53,7 +65,14 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
+
 <!-- your answer starts here -->
+```
+$('.big');
+$('#contentPane');
+$('div').children;
+$('.important .red');
+```
 
 <!-- your answer ends here -->
 
@@ -99,7 +118,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will have font-familu of arial and text color of red. Because cascade
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +129,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +176,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be to the right,
+div 2,3 Four will be to the left in arranged in a stack like column and
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +204,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Stretch would be at 25px
 <!-- your answer ends here -->
