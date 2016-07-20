@@ -32,6 +32,11 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+Clients are usually browsers but they can be mobile phones or tablets, that send a request to the
+servers. Once servers receive a request, they run methods(programs) that they are asked to run to be able
+to perform the requests, and once the request is ready to be deployed, they send it back to the client via HTTP
+protocols.
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +46,12 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<html>
+  <head>
+  </head>
+     <body>
+     </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +64,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+- .big {
+  ...
+}
+
+- #contentPane {
+  ...
+}
+
+- .important, .red {
+  ...
+}
+
+- div > p {
+  ...
+}
 
 <!-- your answer ends here -->
 
@@ -99,6 +124,12 @@ div {
 ```
 
 <!-- your answer starts here -->
+.specialDiv
+
+- color: red;
+- font-size: 16px;
+- font-family: cursive;
+
 
 <!-- your answer ends here -->
 
@@ -110,7 +141,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,6 +188,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+divFour will be cleared from elements that are floated to the left, so 
+it will go under elements that are floated to the left and take as much space as is needed.
+
+divOne will be floated to the right while all other div tags will be floated to the left.
 
 <!-- your answer ends here -->
 
@@ -184,5 +219,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Width for 550px screen will be 34.38% which is 34.38px in px.
 <!-- your answer ends here -->
