@@ -31,7 +31,10 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The Web utilizes the internet to connect clients to servers and deliver
+resources. Clients are applications that send requests about resources to
+servers. Servers hold those resources and can modify or deliver them to clients
+with repsonses.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +44,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anonymous List</title>
+  </head>
+  <body>
+    <ul>
+      <li>item one</li>
+      <li>item two</li>
+      <li>item three</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +71,14 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+.big
+
+#contentPane
+
+.important, .red
+
+div p
 
 <!-- your answer ends here -->
 
@@ -100,6 +125,8 @@ div {
 
 <!-- your answer starts here -->
 
+the .specialDiv div will have a font-family of sans-serif and a color of yellow
+
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,6 +137,8 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+
+margin | border | padding | content | padding | border | margin
 
 <!-- your answer ends here -->
 
@@ -158,6 +187,13 @@ div {
 
 <!-- your answer starts here -->
 
+.divOne will be to the right of the page
+
+.divTwo .divThree and .divFive will be on the same line but starting from the
+left of the page
+
+.divFour will between .divFive and .divOne
+
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +220,8 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+
+I might be wrong here but .stretch will take up 25% of 550 pixels which would
+be 137.5 but you can't have half a pixel so it would round to 138 pixels.
 
 <!-- your answer ends here -->
