@@ -31,7 +31,10 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+It's a service because it is served by a server upon request from us via the
+client.  We request a particular server based on our web address or URL and that
+server then responds by sending our client the necessary documents to view said
+web page.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +44,23 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>I am the title!</title>
+  </head>
+
+  <body>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  </body>
+
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -54,8 +74,23 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {
 
+}
+
+#contentPane {
+
+}
+
+.important, .red {
+
+}
+
+div {
+
+}
 <!-- your answer ends here -->
+
 
 ## Question 4
 
@@ -99,7 +134,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The text color will be yellow and the font-family is sans-serif.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +145,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, Padding, Border, Margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +192,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will float to the left corner of the screen and take along divTwo and
+divThree to its right.  divFour will stay inline below divOne because it was
+cleared of the float.
 <!-- your answer ends here -->
 
 ## Question 7
