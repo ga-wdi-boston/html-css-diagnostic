@@ -31,7 +31,10 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+We mean that the web is a service to share documents over an interconnected
+network (internet). Clients, usually browsers, receive documents from servers
+and display them to the user. Information can be sent back from the client to
+the server to be used.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -40,9 +43,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Page</title>
+  </head>
+  <body>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+    </ul>
+  </body>
+</html>
+```
 
 ## Question 3
 
@@ -53,9 +69,23 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
+  ...
+}
 
-<!-- your answer ends here -->
+#contentPane {
+  ...
+}
+
+.important .red {
+  ...
+}
+
+div p {
+  ...
+}
+```
 
 ## Question 4
 
@@ -96,10 +126,11 @@ div {
   color: red;
   font-size: 16px;
 }
+
 ```
 
 <!-- your answer starts here -->
-
+yellow cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +141,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content > padding > border > margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +188,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All divs besides divOne will float to the left, flush left to eachother inline
+touching the left side of the viewport. divOne will float right touching the
+right side of the viewport.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +217,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30%
 <!-- your answer ends here -->
