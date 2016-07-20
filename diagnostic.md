@@ -30,9 +30,9 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The web is a service whereby documents are requested by clients and sent
+by servers.  The client will send a URL along with a verb, which tells
+the server what type of information it is trying to obtain.
 
 ## Question 2
 
@@ -40,9 +40,20 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<html>
+  <head>
+    <title>Alex</title>
+  </head>
+<body>
+    <h1>Alex Braun</h1>
+      <h4>Alex's List</h4>
+      <ul>
+        <li>Food</li>
+        <li>Address</li>
+        <li>Email</li>
+      </ul>
+</body>
+</html>
 
 ## Question 3
 
@@ -53,9 +64,20 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+.class {
+...
+}
 
-<!-- your answer ends here -->
+#contentPane {
+...
+}
+
+.important, .red {
+...
+}
+p:div {
+...
+}
 
 ## Question 4
 
@@ -98,9 +120,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The color yellow and font-family of sans-serif.
 
 ## Question 5
 
@@ -109,9 +129,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border, margin
 
 ## Question 6
 
@@ -155,10 +173,7 @@ div {
   clear: left;
 }
 ```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+divOne will be on the right side of the page, divTwo, divThree and divFive will float next to eachother on the left side of the webpage on the same line as divOne.  divFour will be on the line below them, on the left side of the page.
 
 ## Question 7
 
@@ -183,6 +198,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The width of .stretch will be 137px.
