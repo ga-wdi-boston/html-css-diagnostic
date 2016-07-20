@@ -31,7 +31,8 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+  The web is mass of documents hosted on computers. Clients request documents
+  from servers and servers respond with documents to the clients.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +42,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Best Web Page</title>
+</head>
+<body>
+  <ul>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+  </ul>
+</body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +69,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+$('.big');
+$('#contentPane');
+$('.important.red');
+$('div > p');
 <!-- your answer ends here -->
 
 ## Question 4
@@ -99,7 +117,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color will be yellow, the font-family will be sans-serif.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -110,7 +128,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -157,7 +175,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+across the top: divTwo, divThree, divOne
+stacking below the top: divFour,
+                        divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -184,5 +204,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px
 <!-- your answer ends here -->
