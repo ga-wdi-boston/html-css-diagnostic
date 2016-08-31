@@ -31,7 +31,11 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web allows the exchange of information between users and providers. The user
+accesses information on the web through a program called a client, and the
+provider processes requests from users and sends the requested information
+through a program called a server. The web is a service in the sense that it is
+the network and system by which providers fulfill requests from users.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +45,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<html>
+  <head>
+    <title>
+      My Awesome Web Page
+    </title>
+  </head>
+  <body>
+    <ul>
+      <li>Super</li>
+      <li>Exciting</li>
+      <li>Content!!!</li>
+    </ul>
+  </body>
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -54,7 +74,13 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big
 
+#contentPane
+
+.important.red
+
+div p
 <!-- your answer ends here -->
 
 ## Question 4
@@ -101,7 +127,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The div labled "specialDiv" will have yellow text from the cursive font family.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +138,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 6
