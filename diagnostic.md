@@ -81,6 +81,7 @@ How would we reference each of the following categories of elements?
 .important.red
 
 div p
+
 <!-- your answer ends here -->
 
 ## Question 4
@@ -188,6 +189,14 @@ div {
 ```
 
 <!-- your answer starts here -->
+divOne and divFour will appear on the first line, with divFour at the far left
+and divOne at the far right. The other divs will appear on subsequent lines,
+individually and in this order: divTwo, divThree, divFive. Like this:
+
+|divFour                divOne|
+|divTwo                       |
+|divThree                     |
+|divFive                      |
 
 <!-- your answer ends here -->
 
@@ -215,5 +224,10 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+At a screen width of 550px, .stretch will be as wide as 25% of the screen, so:
+
+(550 * 0.25) = 137.5px
+
+An element with the class .stretch will be 137.5px wide.
 
 <!-- your answer ends here -->
