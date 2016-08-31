@@ -21,6 +21,7 @@ code. Please do so using the following Markdown formatting.
       ...
     }
     ```
+SORRY--I RAN OUT OF TIME.
 
 Using this format will make it easier for us to grade you, so that we can get
 everyone their feedback faster. Thanks for your help!
@@ -41,7 +42,23 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<html>
 
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +71,16 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big {
+}
+#contentPane {
+}
+.important, .red {
+}
+div{
+}
+```
 
 <!-- your answer ends here -->
 
@@ -101,18 +128,19 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+.specialDiv will be yellow and a sans-serif font.
 <!-- your answer ends here -->
 
 ## Question 5
 
 Order the following parts of the _box model_ from **'innermost'** to
+
 **'outermost'**.
 
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
