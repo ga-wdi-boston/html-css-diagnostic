@@ -44,6 +44,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is my web page</title>
+  </head>
+  <body>
+    <ul>
+      <li>pear</li>
+      <li>apple</li>
+      <li>orange</li>
+      <li>banana</li>
+    </ul>
+  </body>
+  <footer>
+  </footer>
+</html>
 
 <!-- your answer ends here -->
 
