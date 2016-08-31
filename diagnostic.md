@@ -30,9 +30,12 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
+The web is a service because information is transmitted back and forth, and
+information is provided from a server. Browsers are considered clients, and they
+send requests to a server via HTTP (a set of rules that tells the server what to
+do in that instance). The server processes the information or request and sends
+back a response. The browser then processes that response.
 
-<!-- your answer ends here -->
 
 ## Question 2
 
