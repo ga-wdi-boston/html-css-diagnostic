@@ -31,7 +31,11 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The client creates a request using specific protocol to send to the server. The
+server will then return a response for the given request. This is considered
+a service because communication is happening between two different machines to
+transfer documents from the web, and each machine must provide information to
+the other.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +45,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
 
+<head>
+  <title></title>
+</head>
+
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+  </body>
+
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +73,9 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {}
+#contentPane {}
+.important, .red {}
 
 <!-- your answer ends here -->
 
@@ -101,7 +123,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will be yellow with sans-serif font that has a cursive font style
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +134,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +181,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Divs 1, 2, 3, and 5 will all be floated horizontally on the page and div 4 will
+be indented to the next line of the page underneath the floated divs.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +209,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+.stretch will be 25%
 <!-- your answer ends here -->
