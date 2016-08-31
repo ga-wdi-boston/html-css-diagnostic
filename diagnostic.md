@@ -6,6 +6,10 @@ and one that's used by GitHub in its README files.
 In responding to some of these questions, you may be asked to write HTML or CSS
 code. Please do so using the following Markdown formatting.
 
+I used Google to get my answers and looked back at other lessons.
+
+Fist of 5:4
+
 ## For HTML
 
     ```HTML
