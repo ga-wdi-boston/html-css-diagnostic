@@ -120,9 +120,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+yellow, sans-serif
 
-<!-- your answer ends here -->
 
 ## Question 5
 
