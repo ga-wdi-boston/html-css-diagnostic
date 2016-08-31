@@ -67,14 +67,16 @@ will the div labeled 'specialDiv' have?
 ```HTML
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-</head>
-  <div class="things">
-    <div class="specialDiv" style="font-family: cursive">
-      Blah blah blah.
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="things">
+      <div class="specialDiv" style="font-family: cursive">
+        Blah blah blah.
+      </div>
     </div>
-  </div>
+  </body>
 </html>
 ```
 
@@ -124,16 +126,16 @@ arranged on the page?
 ```HTML
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-  <div class="divOne"></div>
-  <div class="divTwo"></div>
-  <div class="divThree"></div>
-  <div class="divFour"></div>
-  <div class="divFive"></div>
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="divOne"></div>
+    <div class="divTwo"></div>
+    <div class="divThree"></div>
+    <div class="divFour"></div>
+    <div class="divFive"></div>
+  </body>
 </html>
 ```
 
