@@ -31,7 +31,11 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is referred to as a service because it allows electronic devices to
+communicate amongst each other in a client - server relationship; the client,
+usually a browswer, sends requests to a servers for information,
+and the servers respond to the client with the requested info - usually in the
+form of hypertext.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +45,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+  <HTML>
+    <head>
+      <title> My Webpage </title>
+    </head>
+      <body>
+        <div>
+          <ul> item1 </ul>
+          <ul> item2 </ul>
+          <ul> item3 </ul>
+        </div>
+      </body>
+  </HTML>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +70,8 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+<div class="big"></div>
+<div id="contentPane"></div>
 
 <!-- your answer ends here -->
 
@@ -101,7 +119,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will have a font-family value of sans-sarif (in cursive?) and be
+colored yellow.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +131,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +178,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+diveOne would be arranged on the right, divFour would be arranged on the bottom
+left, and the other divs would be arranged on the left and stacked on top of eachother,
+laying above divFour.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +207,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Stretch fits an element to your maximum screen width (I think), so the element
+would have a px of 550.
 <!-- your answer ends here -->
