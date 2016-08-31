@@ -71,9 +71,9 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-#big {}
-.contentPane {}
-#important #red {}
+.big {}
+#contentPane {}
+.important .red {}
 div.p {}
 
 
