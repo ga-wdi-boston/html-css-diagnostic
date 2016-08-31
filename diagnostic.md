@@ -189,8 +189,8 @@ div {
 <!-- your answer starts here -->
 divOne will be on top, at the right of the window.
 divTwo will be on top at the left of the window.
-divThree will be below divTwo on the left of the window.
-divFour will be on the bottom on the left of the window.
+divThree will be on top of divTwo on the top-left of the window.
+divFour will be on the bottom of divOne and divTwo on the left of the window.
 <!-- your answer ends here -->
 
 ## Question 7
