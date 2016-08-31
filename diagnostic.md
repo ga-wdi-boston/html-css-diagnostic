@@ -31,7 +31,9 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web acts as a way for requests to be sent from clients to servers, and
+responses sent back from servers to clients. The web enables communication
+between the two.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +43,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HTMl CSS Diagnostic Web Page</title>
+  </head>
+<body>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+</body>
 
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +70,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big{
+  }
+#contentPane{
+  }
+.improtant .red{
+  }
+  For the last one you can style the p items in two way
+  p{
+  }
+  or with the div since if no style is indicated for an item it will look to
+  the parent for style.
+  ...
+}
+```
 
 <!-- your answer ends here -->
 
@@ -101,7 +132,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+yellow with a sans-serif cursive font.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +143,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +190,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div 1 on the right. Div 2, 3, 5 on the left. Div 4 below them all on the left.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +217,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+# 1 100px, # 2 
 <!-- your answer ends here -->
