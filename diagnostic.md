@@ -32,6 +32,14 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+HTTP protocol is what defines the relationship between clients and servers, and
+since the web is built on HTTP protocol, that's why we call the web a "service"
+
+Clients, such as browsers, send requests for information/responses to remote
+web servers via the URL, and the servers then receive the request and send a response
+back to the client. This is pretty much the foundation of how the web works!
+(At least as far as I understand it!)
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +49,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```html
+<html>
+  <head>
+    <title>My Basic Webpage</title>
+  </head>
 
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2 </li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +76,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+  - .big { property: value; }
+  - #contentPane { property: value; }
+  - .important .red {property: value; }
+  - div p {property: value; }
+```
 
 <!-- your answer ends here -->
 
@@ -101,7 +129,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The div with the class specialDiv will have the color yellow and the font-family
+cursive.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +141,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +188,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All the divs will be stacked from left to right, except for divOne, which
+will float to the right, and divFour, which will be on the left-most side
+of the second row, since it is set to 'clear' div Three.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +217,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+
+25%
 
 <!-- your answer ends here -->
