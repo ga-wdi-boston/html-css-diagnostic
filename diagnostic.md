@@ -145,7 +145,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content
+padding
+margin
+border
 <!-- your answer ends here -->
 
 ## Question 6
@@ -192,7 +195,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+ divTwo(left) divThree(left) divFour(left) divOne(right)
+ divFive(below other content)
 <!-- your answer ends here -->
 
 ## Question 7
@@ -219,5 +223,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+550px is larger than 400px but smaller than 800px so it would changed to 25% making it 137.5
 <!-- your answer ends here -->
