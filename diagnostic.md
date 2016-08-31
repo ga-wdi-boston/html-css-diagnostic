@@ -31,7 +31,9 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+When you are trying to get to a website, you are considered the 'client'.
+You are requesting that the 'server' sends you back the information about
+the website you asked for.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +43,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+  ```HTML
+  <!DOCTYPE HTML>
+  <html>
+    <head>
+      <title></title>
+    </head>
+    <body>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </body>
+  </html>
+  ```
 
 <!-- your answer ends here -->
 
@@ -54,6 +71,17 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+  ```CSS
+  .big{
+  }
+  #contentPane{
+  }
+  .important.red{
+  }
+  div > p{
+  }
+  ```
 
 <!-- your answer ends here -->
 
@@ -101,7 +129,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The text color will be yellow and the font-family will be sans-serif
+ because it is a cascading style sheet and reads the css afterwards.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +141,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+First is Content
+Second is Padding
+Third is Border
+Fourth is Margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +191,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The first div will be on the right
+The second div will be on the left
+The third div will be on the left
+The fourth div will not be floated in either direction
+The fifth div will be on the left
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +222,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+it would be at 30px.
 <!-- your answer ends here -->
