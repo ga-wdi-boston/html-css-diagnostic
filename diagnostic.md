@@ -32,6 +32,9 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+A client sends a message or a request for information to a server. The server
+then takes that protocol and sends back the information requested.
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +44,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nishon's Web Page</title>
+  </head>
+  <body>
+  <ul>
+  <li>rock</li>
+  <li>paper</li>
+  <li>fire</li>
+  </ul>
+
+  </body>
+</html>
 
 <!-- your answer ends here -->
 
@@ -54,6 +73,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big{}
+#contentplane{}
+.important.red{}
 
 <!-- your answer ends here -->
 
@@ -101,7 +124,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif;
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,6 +136,11 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+Margin
+Border
+Padding
+Content
+
 
 <!-- your answer ends here -->
 
@@ -186,5 +215,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+.stretch {
+  width: 25%;
+}
 <!-- your answer ends here -->
