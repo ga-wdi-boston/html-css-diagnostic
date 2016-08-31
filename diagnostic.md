@@ -31,7 +31,15 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web isn't really a series of webpages. It's a way to access webpages. When a
+user types in a URL, he/she sees a webpage seconds later, but it's not because
+they are now at a specific place. Instead, the device they are on (the client)
+submitted a request to a server, and that server gave them the information
+necessary to view the webpage, such as html files. There are client-side
+modifications that can be made to the page (see the Denver Broncos page from
+yesterday) that do not affect the file on the server. That's because the client
+isn't modifying the source, they're modifying their own copy that was sent to
+them by the server.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +49,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    <ul>
+      <li>List Item</li>
+      <li>List Item</li>
+      <li>List Item</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +75,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+- .big
+- #contentPane
+- .important.red
+- div > p
 <!-- your answer ends here -->
 
 ## Question 4
@@ -101,7 +125,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow
+font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +137,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+margin, border, padding, content
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +184,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree,                  divOne
+divFour, divFive
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +212,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25%, so ~137px (assuming it is not in another container)
 <!-- your answer ends here -->
