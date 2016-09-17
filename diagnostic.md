@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web functions because of informational transactions that happen between two different classes of systems - clients and servers.  Clients make requests to servers in the form of asking them to either retrieve, create, modify, or delete data.  A server responds to these requests by either approving them and executing, returning an error if either the client or server made a mistake, or denying the request, i.e., if the client doesn't have access, or if the file doesn't exist. As long as these functions are able to be done between clients and servers, you can have an internet.  It is not some static thing that exists only in one place, but rather it is the conversation.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<DOCTYPE!>
+  <html>
+    <head>
+      <title>
+      </title>
+    </head>
+    <body>
+      <ul>
+        <li> </li>
+        <li> </li>
+        <li> </li>A
+      </ul>
+    </body>
+  </html>
+  ```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,9 +69,24 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big {
 
+}
+
+#contentPane {
+
+}
+
+.important.red {
+
+}
+
+div > p {
+
+}
+```
 <!-- your answer ends here -->
-
 ## Question 4
 
 Consider the following HTML and CSS code. What text color and font-family values
@@ -101,7 +131,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Color is yellow.  Font family is cursive.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +142,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +189,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be on top, at the right of the window.
+divTwo will be on top at the left of the window.
+divThree will be on top of divTwo on the top-left of the window.
+divFour will be on the bottom of divOne and divTwo on the left of the window.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +219,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+  137.5px (25% of 550px)
 <!-- your answer ends here -->
