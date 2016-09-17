@@ -32,6 +32,14 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+```
+Clients send requests for resources on the web to servers, which send back
+responses containing those resources (or an error code, if applicable). The
+service the web provices is the set of available resources/information, the
+links between those resources, and the methods for accessing and sharing those
+resources.
+```
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +49,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Title</title>
+  </head>
+  <body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +76,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```
+- .big 
+- #contentPane
+- .important.red 
+- div > p
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -101,7 +128,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+```
+color: yellow;
+font-family: cursive
+```
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +142,9 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+```
+content, padding, border, margin
+```
 <!-- your answer ends here -->
 
 ## Question 6
@@ -160,6 +192,11 @@ div {
 
 <!-- your answer starts here -->
 
+```
+row one: divTwo, divThree, divOne
+row two: divFour, divFive
+```
+
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +223,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+```
+137.5px (25% of 550px)
+```
 <!-- your answer ends here -->
