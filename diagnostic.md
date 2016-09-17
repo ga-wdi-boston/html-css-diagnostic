@@ -31,8 +31,13 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
+The web is used to provide a service of data or resource transmission
+between a client and server.
 
-<!-- your answer ends here -->
+The server is a computer where the resource are stored and
+the client can request access to the servers resources by traversing
+through the web.
+<!-- your answer starts here -->
 
 ## Question 2
 
@@ -41,7 +46,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Basic Web Page</title>
+</head>
+<body>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,6 +71,18 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+HTML
+class = "big"
+id = "contentPane"
+class = "important red"
+<p ></p>
+
+css
+.big
+#contentPane
+.important
+.red
+div > p{}
 
 <!-- your answer ends here -->
 
@@ -101,7 +130,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow
+font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +142,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +189,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will float right of every other div, while divFour will be on the bottom
+right of every other div.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +217,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+it would stretch by 25px
 <!-- your answer ends here -->
