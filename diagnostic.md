@@ -32,6 +32,12 @@ interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
 
+You mean that the "web" takes the requests of clients and serves the data being
+asked for.  A client (browser/app/computer) sends a request to a server using
+a protocol with what is usually a very simple request, "send me this file."  The
+server finds the data and sends it back with a simple protocol saying, "here you
+go."
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,6 +47,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```html
+  <!DOCTYPE HTML>
+  <HTML>
+    <head>
+      <title = "mywebpage">
+    </head>
+    <body>
+      <p>Great website, wow.
+      </p>
+    </body>
+  </HTML>
+```
+
 
 <!-- your answer ends here -->
 
@@ -54,6 +73,11 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+-  .big
+-  #contentPane
+-  .important .red
+-  div > p
 
 <!-- your answer ends here -->
 
@@ -101,7 +125,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Yellow.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +136,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +183,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne, divTwo and divThree would all be on the top 'line'.  divOne would be in
+the upper right corner, divTwo would be in the upper left corner and divThree
+would be tucked to the right of divTwo in the upper left corner.  divFour and
+divFive would sit directly below divTwo and divThree respectively.
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +213,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+It would take up 25% of its parent element.  If the parent element is as wide as
+the entire screen, then it would be (550*.25 = 137.5) 138 px wide (I assume we
+round up since you can't really have .5 px... or can you?).
 <!-- your answer ends here -->
