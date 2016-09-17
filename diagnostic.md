@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+the web is an interconnected network of servers. This means that there are resources that are running thr network and your computer acts as a client that is requesting information from servers that provide responses. A client can be anything that is sending a request and a server is something that takes requests and sends responses.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,24 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+    <!DOCTYPE HTML>
+    <html>
+      <head>
+        <title>Title</title>
+      </head>
+      <body>
+        <ul>
+          <li>
+          </li>
+          <li>
+          </li>
+          <li>
+          </li>
+        </ul>
+      </body>
+    </html>
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +71,23 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+  .big {
+    ...
+  }
 
+  #contentPane {
+    ...
+  }
+
+  .important.red {
+    ...
+  }
+
+  div p {
+    ...
+  }
+```
 <!-- your answer ends here -->
 
 ## Question 4
@@ -101,7 +134,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv will have a text color of yellow and a font family of sans-serif, this is not overwritten by html unless marked with important.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +145,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content
+padding
+margin
+border
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,7 +195,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+ divTwo(left) divThree(left) divFour(left) divOne(right)
+ divFive(below other content)
 <!-- your answer ends here -->
 
 ## Question 7
@@ -186,5 +223,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+550px is larger than 400px but smaller than 800px so it would changed to 25% making it 137.5
 <!-- your answer ends here -->
