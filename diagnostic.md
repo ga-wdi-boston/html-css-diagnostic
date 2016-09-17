@@ -30,9 +30,10 @@ everyone their feedback faster. Thanks for your help!
 When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The web is a service because it is a client and server source of applications
+that communicate via http. The web is a service that uses the internet so while
+the server provides data, the client requests data. In other words, the web is a
+service that splits the job in two parts: web servers and web browsers.
 
 ## Question 2
 
@@ -40,9 +41,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  This is a title </title>
+  </head>
+  <body>
+    <ul>
+      <li>This is an unordered list</li>
+        <li> Item 1 </li>
+        <li> Item 2 </li>
+        <li> Item 3 </li>
+    </ul>
+  </body>
+</html>
+```
 
 ## Question 3
 
@@ -53,9 +67,30 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
+  ...
+}
+```
 
-<!-- your answer ends here -->
+```CSS
+#contentPane {
+  ...
+}
+```
+
+```CSS
+.important.red {
+  ...
+}
+```
+
+```CSS
+.p {
+  ...
+}
+```
+
 
 ## Question 4
 
@@ -100,9 +135,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+'specialDiv' has a text color of yellow and a font-family of sans-serif.
 
 ## Question 5
 
