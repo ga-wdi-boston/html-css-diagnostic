@@ -31,7 +31,7 @@ When we say that the web is a service, what does that mean? Explain the
 interaction in terms of clients and servers.
 
 <!-- your answer starts here -->
-
+The web is a service because it provides a way for clients (browsers) and servers (application or web) to communicate. For instance, client sends a request to a server. The server processes the request. The response gets sent back to the client. The client processes the response.
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <ul>
+      <li>Dog</li>
+      <li>Cat</li>
+      <li>Fish</li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 3
@@ -54,7 +66,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+.big {}
+#contentPane {}
+.important.red {}
+div p {}
 <!-- your answer ends here -->
 
 ## Question 4
@@ -101,7 +116,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color: yellow
+font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 5
@@ -112,7 +128,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 6
@@ -159,6 +175,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+All except divFour will be in top row.
+divOne will be on the far right side of the page.
+divTwo, divThree, and divFive will be in order from left to right.
+divFour will be by itself below.
 
 <!-- your answer ends here -->
 
@@ -186,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+137.5 px
 <!-- your answer ends here -->
