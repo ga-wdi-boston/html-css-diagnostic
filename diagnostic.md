@@ -27,15 +27,6 @@ everyone their feedback faster. Thanks for your help!
 
 ## Question 1
 
-When we say that the web is a service, what does that mean? Explain the
-interaction in terms of clients and servers.
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
-## Question 2
-
 Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
@@ -44,7 +35,7 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer ends here -->
 
-## Question 3
+## Question 2
 
 How would we reference each of the following categories of elements?
 
@@ -57,7 +48,7 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer ends here -->
 
-## Question 4
+## Question 3
 
 Consider the following HTML and CSS code. What text color and font-family values
 will the div labeled 'specialDiv' have?
@@ -104,7 +95,7 @@ div {
 
 <!-- your answer ends here -->
 
-## Question 5
+## Question 4
 
 Order the following parts of the _box model_ from **'innermost'** to
 **'outermost'**.
@@ -115,7 +106,7 @@ content, border, margin, padding
 
 <!-- your answer ends here -->
 
-## Question 6
+## Question 5
 
 Consider the following HTML and CSS. Assuming that the window is much larger
 than the dimensions of any of the `div`s given below, how will each `div` be
@@ -162,7 +153,7 @@ div {
 
 <!-- your answer ends here -->
 
-## Question 7
+## Question 6
 
 Consider the following media queries. How wide, in `px`, would an element
 with the class `.stretch` be at a _screen width_ of 550px?
