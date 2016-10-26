@@ -58,7 +58,8 @@ How would we reference each of the following categories of elements?
 ```CSS
 .big
 #contentPane
-.p < .div
+.important, .red
+.div.p
 
 <!-- your answer ends here -->
 
