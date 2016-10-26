@@ -30,10 +30,22 @@ everyone their feedback faster. Thanks for your help!
 Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Hurts My Brain</title>
+  </head>
+  <body>
+    <h1> Reasons Why Javascript Makes my Head Hurt </h1>
+    <ul>
+      <li>It's hard as shit</li>
+      <li>It's hard as shit</li>
+      <li>It's hard as shit</li>
+    </ul>
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+  </body>
+</html>
 
 ## Question 2
 
@@ -44,8 +56,21 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+.big{
+  style: value;
+}
 
+#contentPane {
+  style: value;
+}
+
+.important, .red {
+  style: value;
+}
+
+div p {
+  style: value;
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -91,7 +116,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+Cursive
 
 <!-- your answer ends here -->
 
@@ -103,7 +128,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content padding border margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +175,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+On one lione, in order from left to starting with divOne ... see below
+1 2 3 4 5
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +203,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30%
 <!-- your answer ends here -->
