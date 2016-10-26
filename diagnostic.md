@@ -33,6 +33,22 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example!</title>
+  </head>
+  <body>
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+    </ul>
+  </body>
+</html>
+
+
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +61,11 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+1: '.big'
+2: '#contentPane'
+3: '.important, .red'
+4: 'div.p'
+
 
 <!-- your answer ends here -->
 
@@ -92,6 +113,9 @@ div {
 ```
 
 <!-- your answer starts here -->
+font-family for div with 'specialDiv' class will be: cursive sans-serif.
+text color for the div with 'specialDiv' class will be: 'yellow'
+
 
 <!-- your answer ends here -->
 
@@ -103,7 +127,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content
+padding
+border
+margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -151,6 +178,14 @@ div {
 
 <!-- your answer starts here -->
 
+'div' tags are standard block-level elements, so each element will start on a new line.
+
+divOne: floated to the right side of
+divTwo: floated to the left side
+divThree:floated to the left side
+divFour: cleared to the middle
+divFive: floated to the left side
+
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +212,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px
 <!-- your answer ends here -->
