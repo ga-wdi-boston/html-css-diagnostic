@@ -31,7 +31,20 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+## For HTML
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>List</title>
+</head>
+<body>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</body>
+</html>
 
 <!-- your answer ends here -->
 
@@ -44,7 +57,22 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+## For css
+
+.big{
+
+}
+#contentPane {
+
+}
+.important .red {
+
+}
+
+div > p {
+
+}
+
 
 <!-- your answer ends here -->
 
@@ -91,7 +119,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+color is yellow
+font-familyi is sans-serif
 
 <!-- your answer ends here -->
 
@@ -103,6 +132,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+order from inner to outer is : content- padding- border- margin
 
 <!-- your answer ends here -->
 
@@ -150,6 +180,9 @@ div {
 ```
 
 <!-- your answer starts here -->
+The first 3 divs will be in a line from left to right
+the 4th div will begin on the line below
+the 5th will begin below the 4th div
 
 <!-- your answer ends here -->
 
@@ -177,5 +210,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+the width of .stretch would be 30px.
+
 
 <!-- your answer ends here -->
