@@ -114,6 +114,8 @@ div {
 <!-- your answer starts here -->
 The font-family would be cursive.
 The color would be red. (I think?)
+I ran the html/css and it was cursive text with black color, so I'm a bit
+confused.
 <!-- your answer ends here -->
 
 ## Question 4
