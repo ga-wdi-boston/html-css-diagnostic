@@ -31,9 +31,17 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<ul>
+<li></li> <li></li> <li></li>
+</ul>
+</body>
+</html>
 
 ## Question 2
 
@@ -44,9 +52,22 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+.big {
 
-<!-- your answer ends here -->
+}
+
+#contentPane {
+
+}
+
+.important, .red {
+
+
+}
+
+div {
+
+}
 
 ## Question 3
 
@@ -91,9 +112,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The color will be yellow and the font-family will be sans-serif
 
 ## Question 4
 
@@ -102,9 +121,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Answer: content, padding, border, margin
 
 ## Question 5
 
@@ -149,9 +166,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+each div will be over each other on the left side of the page
 
 ## Question 6
 
@@ -176,6 +191,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+it will bee 650px
