@@ -25,14 +25,32 @@ code. Please do so using the following Markdown formatting.
 Using this format will make it easier for us to grade you, so that we can get
 everyone their feedback faster. Thanks for your help!
 
+Comfort:5
+Clarity:4.9
+
+Sources: http://htmlshell.com/, google
+
+
 ## Question 1
 
 Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML!</title>
+  </head>
+  <body>
+  <ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +63,24 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+ 1:  .big {
 
+}
+
+2:  #contentPane {
+
+}
+
+3:  element.important {
+
+}
+    element.red {
+
+}
+
+4:  div, p {
+
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +127,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Font Color: yellow
+Font style: cursive  (I believe that you would have to use an !important to override the inline)
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +139,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +186,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Assuming that /*...*/ doesn't mean disply: inline or something else like that,
+the divs would display in block default (one on top of another), but div one would float to the right.  Clear left should allow div four to display properly under the div three, but you'd have to see it to make sure.  I think that depending on how big they are, you may have to clear divOne also?  if they overlap at all (if the div+div>whole window width)
 <!-- your answer ends here -->
 
 ## Question 6
