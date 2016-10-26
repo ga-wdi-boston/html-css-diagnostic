@@ -1,0 +1,17 @@
+.stretch {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+@media (min-width: 400px) {
+  .stretch {
+    width: 25%;
+  }
+}
+
+@media (min-width: 800px) {
+  .stretch {
+    width: 30%;
+  }
+}
