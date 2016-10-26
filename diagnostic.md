@@ -60,6 +60,13 @@ $('.big');
 $('#contentPane');
 $('.important.red');
 $('div > p');
+
+in css:
+
+.big {}
+#contentPane {}
+.important.red {}
+div p {}
 ```
 ## Question 3
 
