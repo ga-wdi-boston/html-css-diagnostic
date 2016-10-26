@@ -31,9 +31,21 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```HTML
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Basic Web Page</title>
+    </head>
+    <body>
+      <ul>
+        <li>firstThing</li>
+        <li>secondThing</li>
+        <li>thirdThing</li>
+      </ul>
+    </body>
+  </html>
+```
 
 ## Question 2
 
@@ -45,7 +57,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+  .big {}
+  #contentPane {}
+  .important.red {}
+  div p {}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +109,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+sans-serif
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +120,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +167,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree, and divFive will be horizontally in line with each other
+divFour will be above these three divs, since it was cleared.
+divOne will be alone on the right side of the page.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +196,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Since the screen is wider than 400px, but less than 800px, the elements will
+be 30px wide. 
 <!-- your answer ends here -->
