@@ -32,7 +32,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> A Web Page </title>
+  </head>
+  <body>
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +57,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+.big
+#contentPane
+.important.red
+div > p
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +107,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Font family will be cursive Color will be yellow
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +118,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +165,11 @@ div {
 ```
 
 <!-- your answer starts here -->
+.divOne will be in the top-right corner;
+.divTwo will be in the top-left corner, with .divThree immediately to its right;
+.divFour will be underneath .divTwo, and .divFive will sit immediately to the right of .divFour (under .divThree).
 
+In short: 2 3 1 4 5
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +196,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+137.5 px - Reason being that since it's min-width, the media query will have .stretch be 25% and at 550px width, 25% is 137.5 px.
 <!-- your answer ends here -->
