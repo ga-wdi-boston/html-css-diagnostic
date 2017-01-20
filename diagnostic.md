@@ -169,7 +169,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-divOne will be on the right, divTwo and three will be underneath it on the left
+divTwo and three will be on the left side of the first line, and divOne will be
+on the right side
 divFour will be on another line with divFive next to it.
 <!-- your answer ends here -->
 
