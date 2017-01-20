@@ -32,6 +32,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+  ```HTML
+//<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question 1</title>
+  </head>
+  <body>
+    <ol>
+      <li>Answer 1</li>
+      <li>Answer 2</li>
+      <li>Answer 3</li>
+    </ol>
+  </body>
+</html>
+```
+
 
 <!-- your answer ends here -->
 
@@ -45,7 +61,13 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big{}
+#contentPane{}
+.important, .red{}
+div > p {}
 
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +114,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+It will be yellow and cursive.
+I looked up what happens when we have conflicting styles and according to this source: http://www.school-for-champions.com/web/css_cascade_order.htm#.WIIbKLYrIcg
+because inline styles are closest to the content, they take top precedence.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +127,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +174,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be to to the right at the top of the page, because it floats right, the rest will stack on top of each other to the left, except for .divFour, which will skip to the next line, because it clears left and noq does not allow anything to float on its left.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +201,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+It would stretch to 125px, because 25px is 25% of 100 and a screen size of 550px would be greater than 400 and less than 800, so the rules of the first media query would apply.
 
-<!-- your answer ends here -->
+I may be wrong in that the percentage means of the width of the window, so it may be just 100px, because that is 25% of the 400px window itself. I tried to look that up, but ran out of time. 
+<!-- your answer ends here>
