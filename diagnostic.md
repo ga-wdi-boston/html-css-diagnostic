@@ -39,7 +39,7 @@ HTML
 </head>
 <body>
   <h1>Diagnostics!</h1>
-  <div class=>Questions:
+  <div>Questions:
     <ul>
       <li>Write some HTML!</li>
       <li>Write some CSS!</li>
