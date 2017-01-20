@@ -31,9 +31,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+    ```HTML
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+    </ul>
+
+  </body>
+</html>
+   ```
 
 ## Question 2
 
@@ -44,9 +57,23 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big{
 
-<!-- your answer ends here -->
+}
+
+#contentPane{
+
+}
+
+.important .red{
+
+}
+
+div p{
+
+}
+```
 
 ## Question 3
 
@@ -92,7 +119,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+it will be yellow color and font will be sans-serif.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -102,9 +129,14 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
 
+<!-- your answer starts here -->
+ content
+ padding
+ border
+ margin
 <!-- your answer ends here -->
+
 
 ## Question 5
 
@@ -150,6 +182,7 @@ div {
 ```
 
 <!-- your answer starts here -->
+first line will be "divTwo and DivThree"on the left and diOne will be on the right. Finally divFour and DivFive will be in the second line
 
 <!-- your answer ends here -->
 
@@ -177,5 +210,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+it will be 25%
 <!-- your answer ends here -->
