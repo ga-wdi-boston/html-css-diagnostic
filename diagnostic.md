@@ -122,7 +122,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-.specialDiv will have color: red because that is listed last in the css file and font-family: cursive because inline styles have higher priority than css file styles.
+.specialDiv will have color: yellow because that is listed in the css file under .specialdiv and font-family: cursive because inline styles have higher priority than css file styles.
 <!-- your answer ends here -->
 
 ## Question 4
