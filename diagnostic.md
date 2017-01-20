@@ -31,9 +31,21 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+    ```HTML
+    <html>
+      <head>
+        <title>Brandon Bowers</title>
+      </head>
+      <body>
+        <ul>
+          <li>Brandon is cool.</li>
+          <li>Brandon is awesome.</li>
+          <li>Brandon is sweet.</li>
+        </ul>
+      </body>
+    </html>
+    ```
 
 ## Question 2
 
@@ -44,9 +56,12 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```CSS
+.big
+#contentPane
+.important, .red
+div p
+```
 
 ## Question 3
 
@@ -91,9 +106,14 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+
+
+
+My answer:
+
+color: yellow;
+font-family: sans-serif
 
 ## Question 4
 
@@ -103,7 +123,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +170,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+They will be inline accross the webage and will stack under the top divs and
+will do the same under.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +198,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+100px
 <!-- your answer ends here -->
