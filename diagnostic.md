@@ -31,7 +31,21 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+```HTML
+<html>
+<head>
+  <title>"this is my title"</title>
+</head>
+  <body>
+    <ul>
+      <li>"item 1"</li>
+      <li>"item 2"</li>
+      <li>'item 3"</li>
+      </ul>
+      </body>
+...
+</html>
+```
 
 <!-- your answer ends here -->
 
@@ -44,9 +58,23 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big{
+}
+#id{
 
-<!-- your answer ends here -->
+}
+.important, .red{
+
+}
+div{
+  p{
+
+  }
+}
+  ...
+
+```
 
 ## Question 3
 
@@ -91,7 +119,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+font is sans-serif, cursive and the color is yellow
 
 <!-- your answer ends here -->
 
@@ -102,7 +130,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
+content, padding, border, margin
 
 <!-- your answer ends here -->
 
@@ -149,7 +177,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+divOne thru divThree will be justified to the right of the screen,
+divFour will be justified on the left side.
 
 <!-- your answer ends here -->
 
@@ -176,6 +205,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
+it would be 240px
 
 <!-- your answer ends here -->
