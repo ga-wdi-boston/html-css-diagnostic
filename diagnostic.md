@@ -32,7 +32,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <title>Response to Question#1</title>
+  </head>
+  <body>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +58,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+  $( "*" ).find( "class" ).css( "big" );
+  $( "*" ).find( "ID" ).css( "contentPane" );
+  $( "*" ).find( "class" ).css( "big", "red" );
+  $( "p" ).parent().find("div");
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +108,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+  text-color: yellow
+  font-family: cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +120,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -151,6 +168,12 @@ div {
 
 <!-- your answer starts here -->
 
+divOne: right side
+divTwo: left side
+divThree: left side (on right side of divTwo)
+divFour: left side (below the lined up divs on new line due to clear)
+divFive: left side (next to divFour)
+
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +200,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25% of 100px = 25px at 550px
 <!-- your answer ends here -->
