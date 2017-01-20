@@ -31,7 +31,17 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!-- !DOCTYPE html
+<html>
+<head></head>
+<body>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</body>
+</html> -->
 
 <!-- your answer ends here -->
 
@@ -44,7 +54,10 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+<!-- .big
+#contentpane
+.important.red
+div.p -->
 
 <!-- your answer ends here -->
 
@@ -91,7 +104,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+<!-- specialdiv =yellow, sans serif, cursive -->
 
 <!-- your answer ends here -->
 
@@ -102,9 +115,9 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
+<!-- content, padding, border, margin -->
 
-<!-- your answer ends here -->
+<!-- -->
 
 ## Question 5
 
@@ -149,7 +162,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+<!--divTwo, divThree,divFour, and divFive will float to the left all on top of each other only divOne will float to the right.-->
 
 <!-- your answer ends here -->
 
@@ -176,6 +189,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!-- 100px ...  -->
