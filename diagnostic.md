@@ -32,6 +32,7 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```
 HTML
 <html>
 <head>
@@ -48,6 +49,7 @@ HTML
   </div>
 </body>
 </html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -60,6 +62,7 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```
 CSS
 .big {
 
@@ -73,6 +76,7 @@ CSS
 div p {
 
 }
+```
 <!-- your answer ends here -->
 
 ## Question 3
