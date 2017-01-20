@@ -31,9 +31,19 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Alex's super terrific web page</title>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
 
 ## Question 2
 
@@ -44,9 +54,21 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+.big {
 
-<!-- your answer ends here -->
+}
+
+#contentPane {
+
+}
+
+.important, .red {
+
+}
+
+div p {
+
+}
 
 ## Question 3
 
@@ -90,10 +112,12 @@ div {
   font-size: 16px;
 }
 ```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Answer:
+.specialDiv {
+  color: yellow;
+  font-family: sans-serif;
+}
+color: yellow and font-family: sans-serif
 
 ## Question 4
 
@@ -102,9 +126,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border, margin (inner -> outer)
 
 ## Question 5
 
@@ -149,9 +171,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+div will be on top to the left. divOne will be on top to the right. divFour will be below the previous two divs but to the left.
 
 ## Question 6
 
@@ -176,6 +196,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The screen size would at a width of 550px would trigger the min-width: 400px
+media query and make the element 25% of the total screen size which would be 137.5px
+or most likely 138px.
