@@ -9,9 +9,7 @@ code. Please do so using the following Markdown formatting.
 ## For HTML
 
     ```HTML
-    <html>
-    ...
-    </html>
+
     ```
 
 ## For CSS
@@ -32,7 +30,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Max's page<title>
+  </head>
+  <body>
+    <ul>
+      <li>blah</li>
+      <li>blah</li>
+      <li>blah</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +57,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+in CSS? using DOM? I hope you mean CSS :)
+```CSS
+.big {
 
+}
+#contentPane {
+
+}
+important.classes, red.classes{
+
+}
+p {
+
+}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +118,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif;
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +130,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +177,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+the first div will be on the top left.
+the second will be on the to right.
+the third will be under the first (and left too)
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Middle one which would make it 137px
 <!-- your answer ends here -->
