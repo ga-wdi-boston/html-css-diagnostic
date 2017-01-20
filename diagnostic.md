@@ -32,7 +32,18 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<html>
+<head>
+<title>question 1 answer</title>
+</head>
+<body>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +56,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {
+  ...
+}
 
+#contentPane {
+  ...
+}
+
+.important.red {
+  ...
+}
+
+div > p {
+  ...
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +117,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color: yellow
+font-family: sans-serif
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +129,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +176,9 @@ div {
 ```
 
 <!-- your answer starts here -->
+all divs: left side of the page except for...
 
+divOne will be on the right side.
 <!-- your answer ends here -->
 
 ## Question 6
