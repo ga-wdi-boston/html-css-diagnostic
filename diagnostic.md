@@ -32,7 +32,25 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+<title></title>
+<head></head>
+<body>
+  <header>
+    <nav></nav>
+    <h1></h1>
+  </header>
+  <h2></h2>
+  <p></p>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  <footer></footer>
+</body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +63,20 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {
+
+}
+
+#contentPane {
+
+}
+.important, .red {
+
+}
+
+div > p {
+
+}
 
 <!-- your answer ends here -->
 
@@ -91,7 +123,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+The specialDiv class will have yellow, cursive, sans-seriff style text.
 
 <!-- your answer ends here -->
 
@@ -103,7 +135,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +182,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div One through three will float right to the top of the page, while div four cannot float left because of the clear, so will remian static. Same with divFive
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +209,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+The the first media queiry . stretch should size to  25px, the second to 100px and the third media query to 30% of 800. Responseive Design : )
 <!-- your answer ends here -->
