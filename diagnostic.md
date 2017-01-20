@@ -122,7 +122,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-.specialDiv will have color: red and font-family: arial because those are listed last on the page.
+.specialDiv will have color: red because that is listed last in the css file and font-family: cursive because inline styles have higher priority than css file styles.
 <!-- your answer ends here -->
 
 ## Question 4
