@@ -32,6 +32,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>html css diagnostic</title>
+  </head>
+
+  <body>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+  </body>
+
+</html>
 
 <!-- your answer ends here -->
 
@@ -46,6 +62,10 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+1. document.getElementsByClassName('big');
+2. document.getElementById('contentPane');
+3. document.getElementsByClassName('important red');
+4. document.querySelectorAll('div').querySelectorAll('p');
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +112,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color - yellow
+font-family - sans-serf
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +124,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +171,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo, divThree, divFour, and divFive will appear next to each other, respectively, to the left
+and divOne will appear to the right side of the window horizontally to the other divs.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +199,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px
 <!-- your answer ends here -->
