@@ -32,7 +32,27 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCUMENT html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<title>Sleep required</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<h1>Jana's story</h1>
+<h2>Chapter 1</h2>
+<p>
+She has learned a javaScript and worked around the world.
+</p>
+<footer>Jana Ryndin</footer>
+
+</body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,9 +65,18 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+.big {}
 <!-- your answer ends here -->
+#dontent-pane {
+}
 
+.important .red {
+
+}
+
+div > p {
+
+}
 ## Question 3
 
 Consider the following HTML and CSS code. What text color and font-family values
@@ -92,18 +121,18 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+font-family: cursive;
 <!-- your answer ends here -->
-
+color: yellow;
 ## Question 4
 
 Order the following parts of the _box model_ from **'innermost'** to
 **'outermost'**.
 
-content, border, margin, padding
+
 
 <!-- your answer starts here -->
-
+content,padding, border, margin,
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +179,10 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne - on the right
+divTwo - left
+divThree - left
+divFour - right
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +209,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px
 <!-- your answer ends here -->
