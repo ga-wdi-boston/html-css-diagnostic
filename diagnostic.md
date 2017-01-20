@@ -31,9 +31,21 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Some Website</title>
+  </head>
+  <body>
+    <ul>
+      <li>Yo</li>
+      <li>What's up</li>
+      <li>Fine day we're having</li>
+    </ul>
+  </body>
+</html>
+```
 
 ## Question 2
 
@@ -44,9 +56,20 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
 
-<!-- your answer ends here -->
+}
+#contentPane {
+
+}
+.important.red {
+
+}
+div p {
+
+}
+```
 
 ## Question 3
 
@@ -90,10 +113,8 @@ div {
   font-size: 16px;
 }
 ```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The class selector '.specialDiv' will have a font-family of 'sans-serif' and a
+color of 'yellow'.
 
 ## Question 4
 
@@ -102,9 +123,11 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+From innermost to outermost, the order goes like this:
+  1. Content
+  2. Padding
+  3. Border
+  4. Margin
 
 ## Question 5
 
@@ -148,10 +171,10 @@ div {
   clear: left;
 }
 ```
-
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+All 'divs' will be positioned at the top of the page, because of float. All
+except for '.divFour' because we used 'clear'. So most would be positioned near
+the top left of the screen, but because '.divOne' uses a 'float: right', it will
+positioned at the top right of the screen.
 
 ## Question 6
 
@@ -176,6 +199,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+If the _screen width_ is at 550px, one of our media queries shows that for a
+minimum width of 400px, '.stretch' should be 25% of the screen. In px its
+137.5px.
