@@ -32,7 +32,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Basic Page</title>
+  <link>
+  </head>
+  <body>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +59,22 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big
+{
 
+}
+.contentPlane
+{
+
+}
+.important, .red
+{
+
+}
+div.p
+{
+
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +121,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Text color is yellow and font-family is sans-serif.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +132,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+Content, padding, border, margin. Double checked in the Chrome dev tools css section.
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +179,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+From left to right: divTwo, divThree, divOne. divFour will be on the left side underneath the others.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+550/4 = 137.5 so probably 137 pixels since the screen width is greater than 400px but less than 800px.
 <!-- your answer ends here -->
