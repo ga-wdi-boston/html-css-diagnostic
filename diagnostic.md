@@ -14,6 +14,8 @@ code. Please do so using the following Markdown formatting.
     </html>
     ```
 
+
+
 ## For CSS
 
     ```CSS
@@ -32,7 +34,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is an example</title>
+  </head>
+  <body>
+    <ul>
+      <li> I can't belive
+      <li> this dosn't need
+      <li> closing tags
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +62,27 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```CSS
+.big {
+  "somthign to the class"
+}
 
+#contentPane {
+  "somthign to the ID"
+}
+
+.important .red {
+  "somthign to the classes"
+}
+
+.important .red {
+  "somthign to the classes"
+}
+
+div p {
+  "somthign to the children p's of divs"
+}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +129,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Yellow and cursive, surrond by a red DIV form the things class
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +140,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border , margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +187,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+div one is going to be on the top right of the scree, with divs2 to div 3
+below div one aligned to teh left of the screen.
 
+The dive four and div five will be on a new line on the left of the screen...I think
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +217,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+is it 30% of the avaliable 550px which would be 165px
 <!-- your answer ends here -->
