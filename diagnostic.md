@@ -32,7 +32,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <title>My Diagnostic web page</title>
+  </head>
+    <body>
+      <ul>
+        <li>Item 1
+        <li>Item 2
+        <li>Item 3
+      </ul>
+    </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -46,6 +59,20 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+    ```CSS
+    .big {
+      for clss big
+    }
+    #contentPane {
+      for ID contentPane
+    }
+    .important.red {
+      for the important and red classes
+    }{
+    div > p {
+      for all p elements whose parent is a div
+    }
+    ```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +119,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family: sans-serif;
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +131,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content -> padding -> border -> margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +178,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+box2 box3                    box1
+box4 box 5
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+100px
 <!-- your answer ends here -->
