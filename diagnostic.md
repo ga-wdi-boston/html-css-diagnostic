@@ -32,7 +32,18 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+''html
+<head>
+<title> </title>
+</head>
 
+<body>
+<ul>
+<il></il>
+<il></il>
+<il></il>
+</ul>
+</body>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +56,13 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+for CSS
+.big {},
+#contentPane {},
+.important .red {},
+div>p {}
+// not sure of this div >P was the only one that did not give me a error in atom
+was trying div <p> but errors out.
 
 <!-- your answer ends here -->
 
@@ -92,7 +110,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color is yellow and in cursive
+// with style writing in HTML > over CSS so did cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +122,8 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+innermost: content, padding, border, margin
+outmost: margin, border, padding, content
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +170,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div 1 = top right
+Div 2 = top left
+Div 3 = top center
+Div 4 = middle left
+Div 5 = middle center below box 3
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +201,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+Will use the @media (min-width) 400px 25% since the @media (min-width) for 30% is 800px
+so 412.5px
 <!-- your answer ends here -->
