@@ -32,7 +32,24 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```html
+<!DOCTYPE html>
 
+  <head>
+    <meta charset="UTF-8">
+    <title>This Title Goes to the Browser Tab</title>
+  </head>
+
+  <body>
+    <h1>Header 1</h1>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -46,6 +63,22 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+```CSS
+.big {
+
+}
+
+#contentPane {
+
+}
+
+.important, .red {
+
+}
+
+p {
+
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +125,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Text color: yellow
+Font-family: cursive (because inline > stylesheet)
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +137,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+1. content
+2. padding
+3. border
+4. margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +187,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All divs will float left, lining them all up in a row: divOne thru divFive.
+divOne then goes to the top right corner.
+divFour then goes to the bottom left corner.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +216,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px since it is between 400px and 800px, it takes 25% of the 100px width.
 <!-- your answer ends here -->
