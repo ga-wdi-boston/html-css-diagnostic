@@ -32,6 +32,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+  <head>
+    <title>Basic web page</title>
+  </head>
+    <body>
+      <p>Unordered list</p>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul
+    </body>
+  </html>
 
 <!-- your answer ends here -->
 
@@ -45,6 +58,31 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+I'm assuming that this question is asking about how to reference thse categories in CSS.
+
+-   All elements that belong to the _class_ `big`
+
+.big {
+
+}
+
+-   The element matching _ID_ `contentPane`
+
+#contentPane {
+
+}
+
+-   Only those elements belonging to both the `important` and `red` _classes_
+
+.important .red {
+
+}
+
+-   All `p` elements whose parent elements are `div`s
+
+p {
+
+}
 
 <!-- your answer ends here -->
 
@@ -93,6 +131,9 @@ div {
 
 <!-- your answer starts here -->
 
+Text color: yellow
+Font family: cursive
+
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,6 +144,11 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+
+1. content
+2. padding
+3. border
+4. margin
 
 <!-- your answer ends here -->
 
@@ -150,7 +196,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne would display on the right side of the page
+divTwo would display to the left of divOne
+divThe and divFour would be stacked vertically beneath divTwo:
+  divThree would display beneath divTwo
+  divFour would display beneath divThree
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +227,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+
+137.5px (Assuming no rounding.  If rounded, 138px)
 
 <!-- your answer ends here -->
