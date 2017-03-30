@@ -31,10 +31,24 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+'''HTML
+<!DOCTYPE html>
+  <head>
+    <title>Valerie's Veggie Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+  </head>
+  <body>
+    <h1>My Page</h1>
+  <ul>
+    <li>Item 1
+    <li>Item 2
+    <li>Item 3
+  </ul>
+</body>
+</html>
 
-<!-- your answer ends here -->
-
+'''
 ## Question 2
 
 How would we reference each of the following categories of elements?
@@ -44,9 +58,23 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```CSS
+  .big {
+    background: pink;
+  }
+  #contentPane {
+    text-align: center;
+  }
+  .impportant red {
+    font-size: 18px;
+    font-style: italic;
+  }
+  div.p {
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+```
 
 ## Question 3
 
@@ -91,9 +119,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+color: yellow;
+font-family: sans-serif;
 
 ## Question 4
 
@@ -102,9 +129,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border margin
 
 ## Question 5
 
@@ -149,9 +174,11 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+divOne will be at the top left
+divTwo will be below on the left
+divThree will be below on the left
+divFour will be on the same line as divThree but flush right
+divFive will be below divFour on the left
 
 ## Question 6
 
@@ -176,6 +203,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+25% of 550 would be 137.5
