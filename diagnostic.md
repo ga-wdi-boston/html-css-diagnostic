@@ -31,9 +31,34 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!--
+```HTML
+<!DOCTYPE html>
 
-<!-- your answer ends here -->
+<head>
+  <title>Title Of Page</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel = "stylesheet" href="assets/styles/main.css">
+</head>
+
+<body>
+This is my page
+<ul>
+
+  <li>First Item
+  <li>Second Item
+  <li>Third Item
+
+
+</ul>
+
+
+</body>
+
+</html>
+```
+-->
+<!--  -->
 
 ## Question 2
 
@@ -44,7 +69,28 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+<!--
+
+this is html/css not jQuery, correct?
+I ANSWERED THAT from question#6; would do this differently using the ('#selector')
+and functions that go along with it. not enough time to go through this.
+
+will re-do if these should be jQuery responses
+  - <div class = "big"></div>
+  - <div id = "contentPane"></div>
+  - <div class = "important" class = "red"></div>
+  - <div>
+    <table>
+        <tr>
+            <td>
+                <p>This will not get selected</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+ -->
 
 <!-- your answer ends here -->
 
@@ -91,7 +137,7 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+<!-- yellow, cursive -->
 
 <!-- your answer ends here -->
 
@@ -102,7 +148,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
+<!-- content, padding, border, margin -->
 
 <!-- your answer ends here -->
 
@@ -149,7 +195,12 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+<!--
+                  divTwodivOne
+divThree
+        divFour
+
+ -->
 
 <!-- your answer ends here -->
 
@@ -176,6 +227,8 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
+<!-- not sure; not enough time; but going to take a guess
+550px
+and 800px? -->
 
 <!-- your answer ends here -->
