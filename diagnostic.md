@@ -32,7 +32,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+      I'm so good at HTML
+      </title>
+    </head>
+    <body>
+      <h1>Chris Rules!</h1>
+      <ul>Spirit Animals
+        <li>Wolf
+        <li>Megalodon
+        <li>Bottle-nosed Dolphin
+      </ul>
+    </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +60,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big
+'#contentPane')
+document.getElementsByClassName('important red')
+$('p').childOf('div')
 
 <!-- your answer ends here -->
 
@@ -92,7 +111,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+color: yellow;
+font-family:cursive;
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +123,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +170,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The first line would be  2 and 3 on the left and 1 on the far right.
+4 clears so the next line would be 4 and 5.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +198,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px - since min-width 400 has a width of 25%, it would be 25% of 100px
 <!-- your answer ends here -->
