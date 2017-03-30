@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    div {
+      border:2px solid black;
+      float: left;
+    }
+
+    .divOne {
+      float: right;
+    }
+
+    .divFour {
+      clear: left;
+    }
+    * {
+      color: black;
+    }
+    div {
+      color: blue;
+    }
+    .specialDiv {
+      color: yellow;
+      font-family: sans-serif;
+    }
+    .things {
+      font-family: arial;
+      color: red;
+      font-size: 16px;
+    }
+
+    .stretch {
+      width: 100px;
+    }
+
+    @media (min-width: 400px) {
+      .stretch {
+        width: 25%;
+      }
+    }
+
+    @media (min-width: 800px) {
+      .stretch {
+        width: 30%;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="stretch">Hello!</div>
+  </body>
+</html>

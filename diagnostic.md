@@ -32,7 +32,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jon's Web Page</title>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +59,22 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```css
+.big {
+  font-family: "Arial";
+}
+#contentPane {
+  font-family: "Arial";
+}
 
+.important, .red {
+  font-family:"Arial";
+}
+
+div p {
+  font-family: "Arial";
+}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +121,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The div with class specialDiv will be yellow
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +132,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +179,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div Two and Div Three will be from left to right horizontally from the left side of the page, while divOne will be on the right side of the page.  divFour will be below divTwo with divFive next to it on the next line.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+The width of stretch at 550 px would be 25%.
 <!-- your answer ends here -->
