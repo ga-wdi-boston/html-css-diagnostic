@@ -32,7 +32,18 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <ul>
+      <li>Red</li>
+      <li>Blue</li>
+      <li>Yellow</li>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +56,18 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big {
 
+}
+#contentPane{
+
+}
+.important.red {
+
+}
+div > p {
+
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +114,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+.specialDiv will have cursive font-style because inline styling is dominant. However, its color will be yellow.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +125,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+1) content, 2) padding, 3) border, 4) margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +172,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will float to the right and be positioned at the top of the right of the page. Divs two three and five will float left (they will be stacked vertically on top of each other to the left of the page). divFour will just be positioned normally between divs three and five because of the clearing.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +199,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+It would be 137.5px (25% of 550px).
 <!-- your answer ends here -->
