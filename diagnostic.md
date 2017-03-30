@@ -31,9 +31,28 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+<header>
+ <h1>Title goes here</h1>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="tbd.js" type="text/javascript" charset="utf-8" defer></script>
+  </header>
 
-<!-- your answer ends here -->
+<body>
+<div>
+  <ul>
+    <li> List Item 1 </li>
+    <li> List Item 2 </li>
+    <li> List Item 3 </li>
+  </ul>
+</div>
+</body>
+
+<footer>
+</footer>
+
+</html>
 
 ## Question 2
 
@@ -45,7 +64,29 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+In CSS, to refer to all elements of the class 'big', you'd use a period. So
+.big {
+    float: left;
 
+}
+
+In CSS, to refer to contentPane, you'd use a #. So
+#contentPane {
+    float: left;
+}
+
+For only those belonging to important and red:
+
+.important .red {
+    float: left;
+
+}
+
+All P elements as follow:
+p {
+ font-family: "Droid Serif", serif;
+ line-height: 26px;
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -91,20 +132,15 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The font family for .specialDiv is cursive,sans-serif and color is yellow
 
 ## Question 4
 
 Order the following parts of the _box model_ from **'innermost'** to
 **'outermost'**.
 
-content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border, margin
 
 ## Question 5
 
@@ -149,6 +185,9 @@ div {
 }
 ```
 
+divTwo, divThree on left of screen...Then on right is divOne is all the way to the right of the window since floated right.
+Next Line is divFour on left followed by divFive.
+
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
@@ -176,6 +215,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+550px would only be affected where min-width is 400px.
+So it would be set to 25% which is 25px
