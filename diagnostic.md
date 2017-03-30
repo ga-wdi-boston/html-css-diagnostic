@@ -31,9 +31,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+<!DOCTYPE html>
+<head>
+  <title>Some title</title>
+</head>
+<body>
 
-<!-- your answer ends here -->
+  <ul>
+    <li>
+    <li>
+    <li>
+  </ul>
+
+
+
+</body>
+</html>
 
 ## Question 2
 
@@ -44,9 +57,10 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+.big if you're creating it on the stylesheet, <class = "big"> to tag an element
+#contentPane on the stylesheet, <ID = "contentPane"> to tag the element
+class = "important" && "red"
+div * p
 
 ## Question 3
 
@@ -91,8 +105,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
+font-family: cursive
+color: yellow
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +117,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +164,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+.divOne will float right (aligns to the right hand side of the div)
+.divTwo will float left (aligns to the left hand side of the div)
+.divThree will float left beside divTwo
+.divFour will float left, a line beneath divThree
+.divFive will float left beside divFour
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +195,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+100px
 <!-- your answer ends here -->
