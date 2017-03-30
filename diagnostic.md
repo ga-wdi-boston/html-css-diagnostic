@@ -32,7 +32,19 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Amanda's Web Page</title>
+  </head>
+  <body>
+    <ul>Favorite foods
+      <li>Cheese</li>
+      <li>Eggs</li>
+      <li>Bread</li>
+    </ul>
+  </body>
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +57,22 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+  1. .big{
+      property: value;
+          }
 
+  2. #contentPane{
+      property: value;
+      }
+  3. .important{
+      property: value;
+      }
+      .red{
+      property:value;
+      }
+  4. p{
+      property:value
+      }
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +119,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Font-family would be cursive.
+Color would be yellow.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +131,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+1. content
+2. padding
+3. border
+4. margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +181,13 @@ div {
 ```
 
 <!-- your answer starts here -->
+Div one will be on the right side of the page.
+The the following divs will appear left to right:
+divTwo
+divThree
+divFive
 
+Div four will appear below all the divs on the left. 
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +214,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+75px
 <!-- your answer ends here -->
