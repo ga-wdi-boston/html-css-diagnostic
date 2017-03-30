@@ -32,7 +32,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Website</title>
+  </head>
+  <body>
+    <ul>
+      <li>Breakfast Menu
+      <li>Lunch Menu
+      <li>Dinner Menu
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +59,33 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+-   All elements that belong to the _class_ `big`
+```CSS
+.big {
 
+}
+```
+-   The element matching _ID_ `contentPane`
+```CSS
+#contentPane {
+
+}
+```
+
+-   Only those elements belonging to both the `important` and `red` _classes_
+```CSS
+.important.red {
+
+}
+```
+
+-   All `p` elements whose parent elements are `div`s
+We would need to assign a class to all of those p elements whose parent elements are divs. Let's say that class is called '.pdivs'. Then, we would reference those elements using the following code:
+```CSS
+.pdivs {
+
+}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +132,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+The div labeled 'specialDiv' will have a text color of yellow and a font family of sans-serif.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +143,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+1. Content (innermost)
+2. Padding
+3. Border
+4. Margin (outermost)
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +193,13 @@ div {
 ```
 
 <!-- your answer starts here -->
+First, I placed values into the divs so that I could run this code and see what rendered on the page. I placed in dummy values "div1", "div2", "div3", "div4", and "div5".
 
+Then, I ran the HTML and CSS code. The output looked like this:
+|div2div3                            div1|
+|div4div5                                |
+
+div2 and div3 are in the top left hand corner of the page. div1 is in the top right hand corner of the page. div 4 and div5 are directly below div2 and div3.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +226,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+At 550px, an element with the class '.stretch' will be 30%. Any width less than 800px and creater than 400px will trigger the media query for a width of 30%. 550px * 30% = 165px.
 <!-- your answer ends here -->
