@@ -33,6 +33,23 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jim's Web Page</title>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
+```
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +62,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+
+```css
+.big {
+
+}
+#contentPane {
+
+}
+.important.red {
+
+}
+div p {
+
+}
+```
 
 <!-- your answer ends here -->
 
@@ -93,7 +125,9 @@ div {
 
 <!-- your answer starts here -->
 
-<!-- your answer ends here -->
+-   color = yellow
+-   font-family = cursive
+    <!-- your answer ends here -->
 
 ## Question 4
 
@@ -104,7 +138,11 @@ content, border, margin, padding
 
 <!-- your answer starts here -->
 
-<!-- your answer ends here -->
+1.  content
+2.  padding
+3.  margin
+4.  border
+    <!-- your answer ends here -->
 
 ## Question 5
 
@@ -114,7 +152,7 @@ arranged on the page?
 
 **index.html**
 
-```HTML
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -132,7 +170,7 @@ arranged on the page?
 
 **style.css**
 
-```CSS
+```css
 div {
   /* ... */
   /* Some other specifications, e.g. dimensions. */
@@ -150,6 +188,10 @@ div {
 ```
 
 <!-- your answer starts here -->
+
+-   divTwo and divThree will be in the top left corner.
+-   divOne will be in the top right corner
+-   divFour and divFive will be below divTwo/divThree
 
 <!-- your answer ends here -->
 
@@ -177,5 +219,7 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+
+25px
 
 <!-- your answer ends here -->
