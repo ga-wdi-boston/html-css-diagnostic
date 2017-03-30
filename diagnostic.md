@@ -31,9 +31,22 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example</title>
+</head>
 
-<!-- your answer ends here -->
+  <body>
+    <ul>
+      <li>
+      <li>
+      <li>
+    </ul>
+</body>
+</html>
+```
 
 ## Question 2
 
@@ -44,9 +57,23 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
 
-<!-- your answer ends here -->
+}
+
+#contentPane {
+
+}
+
+.important.red {
+
+}
+
+div > p {
+
+}
+```
 
 ## Question 3
 
@@ -91,9 +118,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+color: yellow;
+font-family: sans-serif;
 
 ## Question 4
 
@@ -102,9 +128,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border, margin
 
 ## Question 5
 
@@ -149,9 +173,11 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
+Divs 2 and 3 would be on the first row, aliged left to right in this order.
 
-<!-- your answer ends here -->
+Divs 4 and 5 would be on the second row, aligned left to right in this order.
+
+Div 1 would float to the right side of the page. It's not really aligned to any of the two rows because it has been taken out of the document flow.
 
 ## Question 6
 
@@ -176,6 +202,4 @@ with the class `.stretch` be at a _screen width_ of 550px?
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+25%
