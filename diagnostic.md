@@ -32,6 +32,26 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+```HTML
+<html>
+
+  <head>
+    <title>The Best Web Page by Arlo</title>
+  </head>
+
+  <body>
+
+    <ul>
+      <li>Pizza</li>
+      <li>Food</li>
+      <li>Other Food</li>
+    </ul>
+
+  </body>
+
+</html>
+```
+
 
 <!-- your answer ends here -->
 
@@ -45,7 +65,10 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+  1: .big
+  2: #contentPane
+  3: .red.important
+  4: div p
 <!-- your answer ends here -->
 
 ## Question 3
