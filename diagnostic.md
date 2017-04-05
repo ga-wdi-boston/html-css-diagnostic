@@ -176,7 +176,7 @@ div {
 <!-- your answer starts here -->
 divOne will be on the right side of the top of the page.
 diveTwo and divThree will be on the left side of the page, and will be on the same line as divOne assuming that the page is wide enough for them.  If it is not they will start to fill up the next line starting on the left side.
-divFour will be on its own line, seperate from the other divs. It will also start on the left side but it will always start its own line and won't allow anythign to be on the same line as it. 
+divFour will be on its own line, seperate from the other divs. It will also start on the left side but it will always start its own line and won't allow anythign to be on the same line as it.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -202,5 +202,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-It would be 25px wide.
+At first I thought it would be 25px wide.
+However, now that I look at it more I think it won't be measurable in px at all. It would override the original px value and would be 25% of the page. It would only be 25px if it was in a parent div or class that was 100px.
 <!-- your answer ends here -->
