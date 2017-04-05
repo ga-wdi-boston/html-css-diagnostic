@@ -122,7 +122,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+the class specialDiv will have a font-family of cursive and will default to sans-serif
+if the browser cannot read the cursive property and also have a color of yellow
 <!-- your answer ends here -->
 
 ## Question 4
@@ -133,6 +134,10 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+1)content
+2)padding
+3)border
+4)margin
 
 <!-- your answer ends here -->
 
@@ -180,7 +185,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All the divs but divOne and divFour will be floated to the left.
+divOne will be floated to the right and divFour will be stacked below to the left
 <!-- your answer ends here -->
 
 ## Question 6
@@ -207,5 +213,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+at a screen width of 550px the class .stretch would be 125px
 <!-- your answer ends here -->
