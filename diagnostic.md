@@ -31,10 +31,21 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+```HTML
+<!doctype html>
+<html>
+<head>
+  <title> This is the title </title>
+</head>>
+<body>
+  <ul>
+    <li> List one </li>
+    <li> List two </li>
+    <li> List three</li>
+  </ul>
+</body>
+</html>
+```
 ## Question 2
 
 How would we reference each of the following categories of elements?
@@ -44,10 +55,20 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
+  ...
+}
+```
+#contentPane {
+  ...
+}
+. important .red {
+  ...
+}
+div > p {
 
-<!-- your answer ends here -->
-
+}
 ## Question 3
 
 Consider the following HTML and CSS code. What text color and font-family values
@@ -91,8 +112,8 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
+Color: yellow
+font family: cursice
 <!-- your answer ends here -->
 
 ## Question 4
@@ -102,9 +123,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 
 content, border, margin, padding
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+content, padding, border, margin
 
 ## Question 5
 
@@ -149,10 +168,9 @@ div {
 }
 ```
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+Div 1 will float to the top right corner. The other divs will float the the left
+and stack on top of each other (according to JS fiddle). I thought the others would
+form a line in the top row but testing showed me otherwise.
 ## Question 6
 
 Consider the following media queries. How wide, in `px`, would an element
@@ -177,5 +195,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+30px
 <!-- your answer ends here -->
