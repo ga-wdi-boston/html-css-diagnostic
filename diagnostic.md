@@ -34,9 +34,11 @@ and an unordered list (with three items) inside the body.
 ```HTML
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Order List</title>
+<title>Unordered List</title>
 </head>
+
 <body>
 <ul>
   <li>Thing One</li>
@@ -44,6 +46,7 @@ and an unordered list (with three items) inside the body.
   <li>Thing Three</li>
 </ul>
 </body>
+
 </html>
 
 ## Question 2
@@ -62,7 +65,7 @@ How would we reference each of the following categories of elements?
 #contentPane {
 
 }
-.important .red {
+.important.red {
 
 }
 div p {
@@ -114,7 +117,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-specialDiv has tent that is yellow and the font is cursive
+specialDiv has text that is yellow and the font-family is cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -171,7 +174,9 @@ div {
 }
 ```
 <!-- your answer starts here -->
-divOne will be on the to right side of the page. diveTwo and divThree will be on the left side of the page, and will be on the same line was divOne assuming there the page is wide enough for them.  If it is not they will fill up the next line starting on the left side.  divFour will be on its own line, seperate from the other div.
+divOne will be on the right side of the top of the page.
+diveTwo and divThree will be on the left side of the page, and will be on the same line as divOne assuming that the page is wide enough for them.  If it is not they will start to fill up the next line starting on the left side.
+divFour will be on its own line, seperate from the other divs. It will also start on the left side but it will always start its own line and won't allow anythign to be on the same line as it. 
 <!-- your answer ends here -->
 
 ## Question 6
@@ -189,7 +194,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
     width: 25%;
   }
 }
-
 @media (min-width: 800px) {
   .stretch {
     width: 30%;
@@ -198,5 +202,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-It would be 25px wide. 
+It would be 25px wide.
 <!-- your answer ends here -->
