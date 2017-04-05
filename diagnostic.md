@@ -115,7 +115,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+A font family of cursive and a color of red.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -126,6 +126,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
+content, padding, border, margin
 
 <!-- your answer ends here -->
 
@@ -173,7 +174,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+Div's 2 and 3 will inline with each other in the top left corner.
+Divs 4 and 5 will sit inline directly below 2 and 3.
+Div 1 will be in the top right corner.
 <!-- your answer ends here -->
 
 ## Question 6
