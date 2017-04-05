@@ -62,28 +62,33 @@ How would we reference each of the following categories of elements?
 <!-- your answer starts here -->
 -   All elements that belong to the _class_ `big`
 
-In CSS:
+```CSS
   .big {
   }
+```
 
 -   The element matching _ID_ `contentPane`
 
-In CSS:
+```CSS
   #contentPane {
   }
+```
 
 -   Only those elements belonging to both the `important` and `red` _classes_
 
-In CSS:
+```CSS
   .important, .red {
   }
+```
 
 
 -   All `p` elements whose parent elements are `div`s
 
+```CSS
   In CSS:
     div p {
     }
+```
 
 <!-- your answer ends here -->
 
