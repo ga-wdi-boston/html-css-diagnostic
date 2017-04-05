@@ -32,7 +32,21 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+  ```HTML
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>PAGE TITLE GOES HERE</title>
+    </head>
+    <body>
+      <ul>
+        <li>LIST ITEM 1 GOES HERE</li>
+        <li>LIST ITEM 2 GOES HERE</li>
+        <li>LIST ITEM 3 GOES HERE</li>
+      </ul>
+    </body>
+  </html>
+  ```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +59,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```
+  '.big' =  _class_ `big`
+  '#contentPane' = _ID_ `contentPane`
+  '.important.red' =  `important` and `red` _classes_
+  'div p' = `p` elements whose parents are `div`s
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +111,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+In 'specialDiv':
+  text color = yellow
+  font-family = cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +124,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+  content > padding > border > margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +171,9 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divTwo and divThree are floated left and pinned to the left side of the first row.
+divOne is floated right and pinned to the right side of the first row.
+divFour is cleared, so it wraps onto the second row and appears at the left edge, followed by divFive
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +200,9 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+```
+The width of an element with a class of '.stretch' would be 137.5px (rounded to 138).
 
+Since the screen width of 550px is less than 800px, the media query for a min-width of 400px is used, specifying a width of 25% of 550px.
+```
 <!-- your answer ends here -->
