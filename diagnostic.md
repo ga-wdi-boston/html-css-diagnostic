@@ -33,6 +33,22 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
 
+```HTML
+<html>
+...
+</html>
+```
+<head>
+  <title>This is my title</title>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</body>
+
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -46,6 +62,13 @@ How would we reference each of the following categories of elements?
 
 <!-- your answer starts here -->
 
+```CSS
+.big {}
+#contentPane {}
+.important.red {}
+div > p {}
+
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +115,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+yellow
+cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +127,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,6 +174,11 @@ div {
 ```
 
 <!-- your answer starts here -->
+One: top row all the way to the right.
+Two: top row all the way to the left.
+Three: top row, second from the left.
+Four: Second row all the way to the left.
+Five: second row, second from the left.
 
 <!-- your answer ends here -->
 
@@ -177,5 +206,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+137.5px (25% of 550px)
 <!-- your answer ends here -->
