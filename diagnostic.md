@@ -32,7 +32,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nikki's Website</title>
+  <link rel="stylesheet" type="text/css" href="pathgoeshere/style.css">
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,6 +60,30 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+-   All elements that belong to the _class_ `big`
+
+In CSS:
+  .big {
+  }
+
+-   The element matching _ID_ `contentPane`
+
+In CSS:
+  #contentPane {
+  }
+
+-   Only those elements belonging to both the `important` and `red` _classes_
+
+In CSS:
+  .important, .red {
+  }
+
+
+-   All `p` elements whose parent elements are `div`s
+
+  In CSS:
+    div p {
+    }
 
 <!-- your answer ends here -->
 
@@ -92,7 +131,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+font-family: cursive;
+color: yellow;
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +143,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +190,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne will be positioned on the very right, and on the same line, divTwo and
+divThree will be positioned on the very left (in that order from left to right)
+(as long as there is enough window space to accommodate for divTwo and divThree).
+divFour will be on a separate line on its own at the very left, and divFive
+will be positioned next to divFour on the same line to the right.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +221,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+25px
 <!-- your answer ends here -->
