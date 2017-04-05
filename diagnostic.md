@@ -32,6 +32,24 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Bodega
+</title>
+</head>
+<body>
+<h3>
+Some subheading here
+</h3>
+<ul>
+<li>list one</li>
+<li>list two</li>
+<li>list three</li>
+</ul>
+</body>
+</html>
 
 <!-- your answer ends here -->
 
@@ -45,6 +63,18 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+Classes with the big name would be referenced as:
+.big{
+<!--enter some properties and values here-->>
+
+}
+
+ID name with contentPane:
+#contentPane{
+<!--enter some properties and values here-->
+
+}
+
 
 <!-- your answer ends here -->
 
