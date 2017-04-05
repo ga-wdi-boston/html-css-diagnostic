@@ -31,9 +31,23 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
+```HTML
+<!DOCTYPE html>
+<html>
 
-<!-- your answer ends here -->
+<head>
+<title>Unordered List</title>
+</head>
+
+<body>
+<ul>
+  <li>Thing One</li>
+  <li>Thing Two</li>
+  <li>Thing Three</li>
+</ul>
+</body>
+
+</html>
 
 ## Question 2
 
@@ -44,9 +58,20 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
 
-<!-- your answer ends here -->
+}
+#contentPane {
+
+}
+.important.red {
+
+}
+div p {
+
+}
+```
 
 ## Question 3
 
@@ -92,7 +117,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv has text that is yellow and the font-family is cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +128,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content padding border margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -148,9 +173,10 @@ div {
   clear: left;
 }
 ```
-
 <!-- your answer starts here -->
-
+divOne will be on the right side of the top of the page.
+diveTwo and divThree will be on the left side of the page, and will be on the same line as divOne assuming that the page is wide enough for them.  If it is not they will start to fill up the next line starting on the left side.
+divFour will be on its own line, seperate from the other divs. It will also start on the left side but it will always start its own line and won't allow anythign to be on the same line as it.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -168,7 +194,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
     width: 25%;
   }
 }
-
 @media (min-width: 800px) {
   .stretch {
     width: 30%;
@@ -177,5 +202,6 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+At first I thought it would be 25px wide.
+However, now that I look at it more I think it won't be measurable in px at all. It would override the original px value and would be 25% of the page. It would only be 25px if it was in a parent div or class that was 100px.
 <!-- your answer ends here -->
