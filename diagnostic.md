@@ -63,19 +63,27 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+1)
 Classes with the big name would be referenced as:
 .big{
 <!--enter some properties and values here-->>
-
 }
 
+2)
 ID name with contentPane:
 #contentPane{
 <!--enter some properties and values here-->
+}
+
+3)
+.important{
+
+}
+.red{
 
 }
 
-
+4)
 <!-- your answer ends here -->
 
 ## Question 3
