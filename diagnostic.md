@@ -32,7 +32,20 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
-
+```HTML
+<html>
+  <head>
+  <title>Fruitiful Favorites</title>
+  </head>
+  <body>
+    <ul>
+      <li>Apple</li>
+      <li>Pear</li>
+      <li>Pineapple</li>
+    </ul>
+  </body>
+</html>
+```
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +58,24 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
-
+```CSS
+.big {
+    property: value(s);
+  ...
+}
+#contentPane {
+    property: value(s);
+  ...
+}
+.important.red {
+    property: value(s);
+  ...
+}
+div p {
+    property: value(s);
+  ...
+}
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +122,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+.specialDiv will have a font-family of cursive, and color of yellow.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +133,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +180,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+They are block elements, but the divs with float left will float inline to the top left of the page (not over top of one another), .divOne will be to the top right of the page, and items on the page will not be able to float to the left of .divFour.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +207,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+The screen width will be at 25%
 <!-- your answer ends here -->
