@@ -33,6 +33,27 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
 
+!DOCTYPE html
+<html>
+
+<head>
+  <title>
+
+  </title>
+
+</head>
+
+<body>
+
+  <ul>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+  </ul>
+
+</body>
+
+</html>
 <!-- your answer ends here -->
 
 ## Question 2
@@ -45,7 +66,21 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+class {
+font-size:
+}
 
+ID {
+
+}
+
+.classes {
+
+}
+
+div {
+
+}
 <!-- your answer ends here -->
 
 ## Question 3
@@ -92,7 +127,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text color: yellow
+font-family: sans-serif
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +139,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content, padding, boarder, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -150,7 +186,12 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+@media (max-width:) {
+  div {
+    width:
+    height:
+  }
+}
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +218,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+between 400px and 800px
 <!-- your answer ends here -->
