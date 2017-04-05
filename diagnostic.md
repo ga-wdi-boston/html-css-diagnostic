@@ -66,7 +66,7 @@ How would we reference each of the following categories of elements?
 .big {}
 #contentPane {}
 .important.red {}
-div p {}
+div > p {}
 
 ```
 <!-- your answer ends here -->
