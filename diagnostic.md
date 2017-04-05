@@ -179,7 +179,11 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+divOne - top row, on the right
+divTwo - top row, on the left
+divThree  - top row, on the left (over divTwo)
+divFour - bottom row, on the left
+divFive - bottom row, on the right
 <!-- your answer ends here -->
 
 ## Question 6
