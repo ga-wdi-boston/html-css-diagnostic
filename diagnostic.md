@@ -31,9 +31,20 @@ Between the comments below, write HTML to create a basic web page (using the
 format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order List</title>
+</head>
+<body>
+<ul>
+  <li>Thing One</li>
+  <li>Thing Two</li>
+  <li>Thing Three</li>
+</ul>
+</body>
+</html>
 
 ## Question 2
 
@@ -44,9 +55,20 @@ How would we reference each of the following categories of elements?
 -   Only those elements belonging to both the `important` and `red` _classes_
 -   All `p` elements whose parent elements are `div`s
 
-<!-- your answer starts here -->
+```CSS
+.big {
 
-<!-- your answer ends here -->
+}
+#contentPane {
+
+}
+.important .red {
+
+}
+div p {
+
+}
+```
 
 ## Question 3
 
@@ -92,7 +114,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+specialDiv has tent that is yellow and the font is cursive
 <!-- your answer ends here -->
 
 ## Question 4
@@ -103,7 +125,7 @@ Order the following parts of the _box model_ from **'innermost'** to
 content, border, margin, padding
 
 <!-- your answer starts here -->
-
+content padding border margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -148,9 +170,8 @@ div {
   clear: left;
 }
 ```
-
 <!-- your answer starts here -->
-
+divOne will be on the to right side of the page. diveTwo and divThree will be on the left side of the page, and will be on the same line was divOne assuming there the page is wide enough for them.  If it is not they will fill up the next line starting on the left side.  divFour will be on its own line, seperate from the other div.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +198,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+It would be 25px wide. 
 <!-- your answer ends here -->
