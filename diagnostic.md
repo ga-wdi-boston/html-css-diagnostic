@@ -59,10 +59,12 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+```
   '.big' =  _class_ `big`
   '#contentPane' = _ID_ `contentPane`
   '.important.red' =  `important` and `red` _classes_
   'div p' = `p` elements whose parents are `div`s
+```
 <!-- your answer ends here -->
 
 ## Question 3
@@ -198,7 +200,9 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
+```
 The width of an element with a class of '.stretch' would be 137.5px (rounded to 138).
 
 Since the screen width of 550px is less than 800px, the media query for a min-width of 400px is used, specifying a width of 25% of 550px.
+```
 <!-- your answer ends here -->
