@@ -32,6 +32,22 @@ format described in the instructions). The page should have a title in the head
 and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to my Website!</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+<h1>Welcome to my Website!</h1>
+<ol>
+<li> Item 1 </li>
+<li> Item 2 </li>
+<li> Item 3 </li>
+</ol>
 
 <!-- your answer ends here -->
 
@@ -45,6 +61,8 @@ How would we reference each of the following categories of elements?
 -   All `p` elements whose parent elements are `div`s
 
 <!-- your answer starts here -->
+.big
+#contentPane
 
 <!-- your answer ends here -->
 
@@ -92,7 +110,8 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+text-color: yellow
+font-family: sans-serif
 <!-- your answer ends here -->
 
 ## Question 4
@@ -100,10 +119,10 @@ div {
 Order the following parts of the _box model_ from **'innermost'** to
 **'outermost'**.
 
-content, border, margin, padding
+content, padding, border, margin (sorry, I originally answered here)
 
 <!-- your answer starts here -->
-
+content, padding, border, margin
 <!-- your answer ends here -->
 
 ## Question 5
@@ -148,9 +167,9 @@ div {
   clear: left;
 }
 ```
-
+div
 <!-- your answer starts here -->
-
+divFour will be on the same line as divOne, with Divfour appearing first if read from right to left.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -177,5 +196,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+800px
 <!-- your answer ends here -->
