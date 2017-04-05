@@ -221,5 +221,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-at a screen width of 550px the class .stretch would be 125px
+at a screen width of 550px the class .stretch would be 130px
 <!-- your answer ends here -->
