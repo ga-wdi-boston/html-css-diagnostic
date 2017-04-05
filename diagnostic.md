@@ -33,6 +33,7 @@ and an unordered list (with three items) inside the body.
 
 <!-- your answer starts here -->
 ```HTML
+<!DOCTYPE html>
 <html>
   <head>
     <title></title>
@@ -108,7 +109,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-The text color is yellow, and the font-family is sans-serif.
+The text color and font-family will be yellow and sans-serif.
 <!-- your answer ends here -->
 
 ## Question 4
@@ -166,7 +167,7 @@ div {
 ```
 
 <!-- your answer starts here -->
-
+All divs except divFour would be on the top row next to each other, with divOne all the way on the right. divFour would be in the second row, stretched out across the screen.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -193,5 +194,5 @@ with the class `.stretch` be at a _screen width_ of 550px?
 ```
 
 <!-- your answer starts here -->
-
+An element with the class '.stretch' would be 165px.
 <!-- your answer ends here -->
